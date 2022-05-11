@@ -4,21 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inludes/css/style.css">
+    <link rel="stylesheet" href="includes/css/style.css">
     <title>IcT Air</title>
 </head>
 <body>
+    <nav>
+        <div class="nav_items">
+            <ul>
+                <li><a href=""><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="">Plan en boek</a></li>
+                <li><a href="">Beheer je boeking</a></li>
+                <li><a href="">Service</a></li>
+            </ul>
+        </div>
+        <div class="nav_items">
+            <ul>
+                <li><a href="">Vluchtstatus</a></li>
+                <li><a href="">Online inchecken</a></li>
+                <li><a href="">Reisinspiratie</a></li>
+                <li><a href="">Bestemmingen</a></li>
+                <hr>
+                <li><a href="">Inloggen</a></li>
+                <li><a href="">Aanmelden</a></li>
+            </ul>
+        </div>
+    </nav>
     <header>
-        <h1>afaafafa</h1>
-        <h3>kaasdfseg</h3>
-        <h3>kaasdfseg</h3>
-        <h3>kaasdfseg</h3>
+        <form class="home_form" action="">
+            <h1>Waar wil je heen?</h1>
+            <div class="elem-group">
+                    <label for="name">Vanaf</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="Vertrekluchthaven" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="name">Naar</label>
+                    <input type="text" id="name" name="visitor_email" placeholder="Bestemmingen" required>
+                </div>
+                <div class="elem-group-inlined">
+                    <div class="date_selection">
+                        <label for="meeting-time">Vertrek op</label>
+                        <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                    </div>
+                    <div class="date_selection">
+                        <label for="meeting-time">Vertrek op</label>
+                        <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                    </div>
+                </div>
+                <div class="elem-group">
+                    <label for="adult">Wie gaan er mee?</label>
+                    <input type="number" id="adult" name="total_adults" placeholder="1 Volwassene" min="1" max="6"required>
+                </div>
+                <button type="submit">Zoeken</button>
+        </form>
     </header>
     <main>
-        <h3>kaasdfseg</h3>
+
     </main>
     <footer>
-        <h2>sgegnafa</h2>
+
     </footer>
+    <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
 </body>
 </html>
