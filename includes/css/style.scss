@@ -37,28 +37,39 @@ nav {
             }
         }
     }
+    .secondary {
+        font-weight: normal;
+    }
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     form {
         @include flexcenter();
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 2rem;
         padding: 3%;
         text-align: center;
         background: #f3f0ed;
         border-radius: 2vh;
-        font-size: 1.2em;
+        font-size: 1.1em;
+        h1 {
+            color: $green;
+        }
         .elem-group {
             display: flex;
             align-items: flex-start ;
             flex-direction: column;
+            width: 100%;
             gap: 1rem;
             input {
+                padding: 4%;
+                border-radius: 0.5rem;
+                border: 1px solid #91a3b7;
+                font-size: 0.9em;
                 width: 100%;
             }
         }
@@ -71,6 +82,21 @@ header {
                 flex-direction: column;
                 gap: 1rem;
             }
+            input {
+                padding: 4%;
+                border-radius: 0.5rem;
+                border: 1px solid #91a3b7;
+                font-size: 0.9em;
+            }
+        }
+        button {
+            padding: 5% 10%;
+            border-radius: 1.5rem;
+            border: 0px solid;
+            background: #FFC53A;
+            color: #111111;
+            font-size: 0.9em;
+            font-weight: bold;
         }
     }
 }
