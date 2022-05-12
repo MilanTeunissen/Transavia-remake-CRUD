@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4%;
+    padding: 1% 0;
     form {
         @include flexcenter();
         flex-direction: column;
@@ -98,5 +98,19 @@ header {
             font-size: 0.9em;
             font-weight: bold;
         }
+    }
+    .carousel {
+        width: 85%;
+        margin: auto;
+        .carousel_slide {
+            display: flex;
+            justify-content: flex-start;
+            height: 800px;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+
     }
 }

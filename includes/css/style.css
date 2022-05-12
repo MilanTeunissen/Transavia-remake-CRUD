@@ -64,7 +64,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 4%;
+  padding: 1% 0;
 }
 
 header form {
@@ -152,5 +152,25 @@ header form button {
   color: #111111;
   font-size: 0.9em;
   font-weight: bold;
+}
+
+header .carousel {
+  width: 85%;
+  margin: auto;
+}
+
+header .carousel .carousel_slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 800px;
+  width: 100%;
+}
+
+header .carousel .carousel_slide img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
