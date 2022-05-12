@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    padding: 4%;
     form {
         @include flexcenter();
         flex-direction: column;
