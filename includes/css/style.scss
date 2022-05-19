@@ -103,13 +103,25 @@ header {
         @include flexcenter();
         width: 60%;
         height: 80vh;
-        border: 5px solid black;
-        .carousel_slide {
+        overflow: hidden;
+        position: relative;
+        &_slide {
             display: flex;
             width: 100%;
             img {
                 width: 100%;
             }
+        }
+        #prevBtn, #nextBtn {
+            position: absolute;
+            top: 50%;
+            z-index: 10;
+            right: 5%;
+            font-size: 30px;
+            color: #f3f0ed;
+        }
+        #prevBtn {
+            left: 5%;
         }
     }
 }

@@ -166,17 +166,31 @@ header .carousel {
           align-items: center;
   width: 60%;
   height: 80vh;
-  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
 }
 
-header .carousel .carousel_slide {
+header .carousel_slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
-header .carousel .carousel_slide img {
+header .carousel_slide img {
   width: 100%;
+}
+
+header .carousel #prevBtn, header .carousel #nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: #f3f0ed;
+}
+
+header .carousel #prevBtn {
+  left: 5%;
 }
 /*# sourceMappingURL=style.css.map */
