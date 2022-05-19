@@ -30,6 +30,34 @@
                 </div>
                 <button class="inlog_button" name="inlogSubmit">Login</button>
             </from>
+=======
+          <form class="home_form" action="">
+              <h1>Waar wil je heen?</h1>
+              <div class="elem-group">
+                  <label for="name">Vanaf</label>
+                  <input type="text" id="name" name="department" placeholder="Vertrekluchthaven" pattern=[A-Z\sa-z]{3,20} required>
+              </div>
+              <div class="elem-group">
+                  <label for="name">Naar</label>
+                  <input type="text" id="name" name="arival" placeholder="Bestemming" required>
+              </div>
+              <div class="elem-group-inlined">
+                  <div class="date_selection">
+                      <label for="meeting-time">Vertrek op</label>
+                      <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                  </div>
+                  <div class="date_selection">
+                      <label for="meeting-time">Vertrek op</label>
+                      <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                  </div>
+              </div>
+              <div class="elem-group">
+                  <label for="adult">Wie gaan er mee?</label>
+                  <input type="number" id="adult" name="total_adults" placeholder="1 Volwassene" min="1" max="20" required>
+              </div>
+              <button type="submit">Zoeken</button>
+          </form>
+>>>>>>> Stashed changes:includes/pages/login-page.php
       </div>
     </main>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>

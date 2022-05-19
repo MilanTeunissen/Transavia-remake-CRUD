@@ -127,3 +127,64 @@ header {
         }
     }
 }
+
+.login {
+    margin-top: 5%;
+    font-weight: bold;
+    form {
+        @include flexcenter();
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        padding: 2%;
+        background: #f3f0ed;
+        text-align: center;
+        border-radius: 2vh;
+        font-size: 1.1em;
+        h1 {
+            color: $green;
+        }
+        .elem-group {
+            display: flex;
+            align-items: flex-start ;
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+            input {
+                padding: 1%;
+                border-radius: 0.5rem;
+                border: 1px solid #91a3b7;
+                font-size: 0.9em;
+                width: 100%;
+            }
+        }
+        .elem-group-inlined {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 5rem;
+            .date_selection {
+                display: flex;
+                flex-direction: column;
+                width: 35%;
+                gap: 1rem;
+            }
+            input {
+                padding: 3%;
+                border-radius: 0.5rem;
+                border: 1px solid #91a3b7;
+                font-size: 0.9em;
+            }
+        }
+        button {
+            padding: 2% 4%;
+            border-radius: 1.5rem;
+            border: 0px solid;
+            background: #FFC53A;
+            color: #111111;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+    }
+}
