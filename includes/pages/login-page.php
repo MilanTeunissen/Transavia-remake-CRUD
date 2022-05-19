@@ -24,7 +24,7 @@
             <form class="form_inlog" action="includes/login.php" method="POST">
                 <div class="inlog_style">
                     <p>Username</p>
-                    <input type="text" name="username" placeholder="username">
+                    <input type="text" name="naam" placeholder="naam">
                     <p>Password</p>
                     <input type="text" name="wachtwoord" placeholder="wachtwoord">
                 </div>
