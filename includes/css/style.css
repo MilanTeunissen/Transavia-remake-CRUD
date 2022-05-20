@@ -195,4 +195,104 @@ header .carousel #prevBtn, header .carousel #nextBtn {
 header .carousel #prevBtn {
   left: 5%;
 }
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7%;
+}
+
+.login form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  padding: 2%;
+  text-align: center;
+  background: #f3f0ed;
+  border-radius: 2vh;
+  font-size: 1.1em;
+  z-index: 11;
+}
+
+.login form h1 {
+  color: #00d66c;
+}
+
+.login form .elem-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.login form .elem-group input {
+  padding: 1%;
+  border-radius: 0.5rem;
+  border: 1px solid #91a3b7;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.login form .elem-group-inlined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.login form .elem-group-inlined .date_selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.login form .elem-group-inlined input {
+  padding: 4%;
+  border-radius: 0.5rem;
+  border: 1px solid #91a3b7;
+  font-size: 0.9em;
+}
+
+.login form button {
+  padding: 2% 4%;
+  border-radius: 1.5rem;
+  border: 0px solid;
+  background: #FFC53A;
+  color: #111111;
+  font-size: 0.9em;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
