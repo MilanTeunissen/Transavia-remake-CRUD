@@ -10,10 +10,11 @@
     <title>Inloggen</title>
   </head>
   <body>
+      <img src="../img/" alt="">
     <main>
         <div class="login">
             <form class="login_form" action="">
-                <h1>Inloggen</h1>
+                <h1>Aanmelden</h1>
                 <div class="elem-group">
                     <label for="name">Voor Naam:</label>
                     <input type="text" id="name" name="department" placeholder="Albertus" pattern=[A-Z\sa-z]{3,20} required>
@@ -23,11 +24,15 @@
                     <input type="text" id="name" name="arival" placeholder="Wilhelmus" required>
                 </div>
                 <div class="elem-group">
+                    <label for="meeting-time">Geboorte datum</label>
+                    <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                </div>
+                <div class="elem-group">
                     <label for="name">Email:</label>
                     <input type="text" id="name" name="arival" placeholder="AlbertusWilhelmus@gmail.com" required>
                 </div>
                 <div class="elem-group-end">
-                  <a href="register-page.php">Nog geen account?</a>
+                  <a href="login-page.php">Heb je al een account?</a>
                   <a href="../../index.html">Terug</a>
                 </div>
                 <button type="submit">Zoeken</button>

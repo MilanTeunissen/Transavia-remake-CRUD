@@ -46,7 +46,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1% 0;
     form {
         @include flexcenter();
         position: absolute;
@@ -79,7 +78,7 @@ header {
             display: flex;
             align-items: center;
             gap: 1rem;
-            .date_selection {
+            .date-selection {
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
@@ -132,13 +131,14 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 7%;
-    form {
+    font-weight: bold;
+    &_form {
         @include flexcenter();
         position: absolute;
         flex-direction: column;
         gap: 2rem;
         width: 90%;
-        padding: 2%;
+        padding: 3%;
         text-align: center;
         background: #f3f0ed;
         border-radius: 2vh;
@@ -160,21 +160,16 @@ header {
                 font-size: 0.9em;
                 width: 100%;
             }
-        }
-        .elem-group-inlined {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            .date_selection {
+            &-end {
                 display: flex;
+                align-items: flex-start ;
                 flex-direction: column;
+                width: 100%;
                 gap: 1rem;
-            }
-            input {
-                padding: 4%;
-                border-radius: 0.5rem;
-                border: 1px solid #91a3b7;
-                font-size: 0.9em;
+                a {
+                    color: #111111;
+                    text-decoration: none;
+                }
             }
         }
         button {
