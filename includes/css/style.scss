@@ -12,6 +12,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -180,6 +181,130 @@ header {
             color: #111111;
             font-size: 0.9em;
             font-weight: bold;
+        }
+    }
+}
+
+.intersection {
+    @include flexcenter();
+    padding: 4% 0;
+    gap: 15rem;
+    img {
+        width: 20%;
+        border-radius: 2vh;
+    }
+    h3 {
+        color: $green;
+    }
+    .intersection-text {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 2rem;
+        a {
+            color: #111111
+        }
+    }
+}
+
+.order-section {
+    @include flexcenter();
+    padding: 4% 0;
+    gap: 15rem;
+    img {
+        width: 20%;
+        border-radius: 2vh;
+    }
+    h3 {
+        color: $green;
+    }
+    .order-section-text {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: #f3f0ed;
+        border-radius: 2vh;
+        padding: 3%;
+        gap: 2rem;
+        a {
+            color: #111111
+        }
+    }
+}
+
+.cards-home {
+    @include flexcenter();
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    padding: 5%;
+    gap: 8rem;
+    .card {
+        @include flexcenter();
+        flex-direction: column;
+        width: 20%;
+        background: #f3f0ed;
+        border-radius: 2vh;
+        border: #111111 1px solid;
+        overflow: hidden;
+        gap: 2rem;
+        &-img-left, &-img-right{
+            @include flexcenter();
+            padding: 15%;
+            width: 100%;
+            font-size: 2.5em;
+            color: #f3f0ed;
+        }
+        &-img-left {
+            background: #91a3b7;
+        }
+        &-img-right {
+            background: #FFC53A;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            padding: 0 10% 20% 10%;
+            list-style-type: none;
+            gap: 1rem;
+            li {
+                @include flexcenter();
+                a {
+                    color: #111111;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.destinations {
+    @include flexcenter();
+    font-size: 1.4em;
+    gap: 2rem;
+    .destinations-list {
+        display: flex;
+        gap: 2rem;
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            text-align: center;
+            gap: 2rem;
+            li {
+                a {
+                    @include flexcenter();
+                    text-decoration: none;
+                    color: #111111;
+                    gap: 5rem;
+                    h4 {
+                        width: 20%;
+                    }
+                }
+            }
         }
     }
 }
