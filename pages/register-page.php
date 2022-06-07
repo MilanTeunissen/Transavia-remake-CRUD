@@ -25,7 +25,7 @@
                 </div>
                 <div class="elem-group">
                     <label for="meeting-time">Geboorte datum</label>
-                    <input type="datetime-local" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
+                    <input type="date" id="date_selection" name="meeting-time" value="" min="2022-04-07T00:00" max="2023-01-01T00:00"></label>
                 </div>
                 <div class="elem-group">
                     <label for="name">Email:</label>
