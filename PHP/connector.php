@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'CRUD-ict';
+$db = 'crud-ict';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
