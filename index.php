@@ -60,19 +60,19 @@
             </form>
             <i class="fa-solid fa-circle-right" id="nextBtn"></i>
             <div class="carousel_slide">
-                <img loading="lazy" src="includes/img/carousel_vacation2.png" id="lastclone" alt="">
-                <img loading="lazy" src="includes/img/carousel_plane.png" alt="">
-                <img loading="lazy" src="includes/img/carousel_destenation.png" alt="">
-                <img loading="lazy" src="includes/img/carousel_airport.png" alt="">
-                <img loading="lazy" src="includes/img/carousel_vacation.png" alt="">
-                <img loading="lazy" src="includes/img/carousel_vacation2.png" alt="">
-                <img loading="lazy" src="includes/img/carousel_plane.png" id="firstclone" alt="">
+                <img loading="lazy" src="img/carousel_vacation2.png" id="lastclone" alt="">
+                <img loading="lazy" src="img/carousel_plane.png" alt="">
+                <img loading="lazy" src="img/carousel_destenation.png" alt="">
+                <img loading="lazy" src="img/carousel_airport.png" alt="">
+                <img loading="lazy" src="img/carousel_vacation.png" alt="">
+                <img loading="lazy" src="img/carousel_vacation2.png" alt="">
+                <img loading="lazy" src="img/carousel_plane.png" id="firstclone" alt="">
             </div>
         </div>
     </header>
     <main> 
         <div class="intersection">
-            <img src="includes/img/intersection.png" alt="">
+            <img src="img/intersection.png" alt="">
             <div class="intersection-text">
                 <h3>Vlieg vanaf frankrijk met IcT Air</h3>
                 <p>Vanaf komende zomer vlieg je vanaf frankrijk met IcT Air naar de mooiste bestemmingen in Europa. We bieden onder andere vluchten aan naar Faro, Alicante en Ibiza. Boek nu je ticket en geniet van een heerlijke vakantie. Waar ga jij naartoe?</p>
@@ -109,14 +109,14 @@
                 <p>Je favoriete maaltijd aan boord? Vanaf nu kan het! Op alle vertrekkende vluchten vanaf Amsterdam kun je via Thuisbezorgd.nl eten bestellen dat aan boord geserveerd wordt. Van sushi tot Indian butter chicken: eet smakelijk! Wat ga jij bestellen?</p>
                 <a href="">Meer informatie</a>
             </div>
-            <img loading="lazy" src="includes/img/order-section.png" alt="">
+            <img loading="lazy" src="img/order-section.png" alt="">
         </div>
         <div class="destinations">
             <div class="destinations-list left">
                 <ul>
                     <li>
                         <a href=""> 
-                            <img loading="lazy" src="includes/img/destination-alicante.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-alicante.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                             <h4>Alicante</h4>
                             <p></p>
                         </a>
@@ -124,7 +124,7 @@
                     <hr>
                     <li>
                         <a href="">
-                            <img loading="lazy" src="includes/img/destination-athene.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-athene.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                             <h4>Athene</h4>
                             <p></p>
                         </a>
@@ -132,7 +132,7 @@
                     <hr>
                     <li>
                         <a href="">
-                            <img loading="lazy" src="includes/img/destination-lissabon.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-lissabon.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                             <h4>Lissabon</h4>
                             <p></p>
                         </a>
@@ -140,7 +140,7 @@
                     <hr>
                     <li>
                         <a href="">
-                            <img loading="lazy" src="includes/img/destination-milaan.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-milaan.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                             <h4>Milaan</h4>
                             <p></p>
                         </a>
@@ -148,7 +148,7 @@
                     <hr>
                     <li>
                         <a href="">
-                            <img loading="lazy" src="includes/img/destination-faro.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-faro.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                             <h4>Faro</h4>
                             <p></p>
                         </a>
@@ -161,35 +161,35 @@
                     <li>
                         <a href="">
                             <h4>Malaga</h4>
-                            <img loading="lazy" src="includes/img/destination-malaga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-malaga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                         </a>
                     </li>
                     <hr>
                     <li>
                         <a href="">
                             <h4>Krakou</h4>
-                            <img loading="lazy" src="includes/img/destination-krakou.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-krakou.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                         </a>
                     </li>
                     <hr>
                     <li>
                         <a href="">
                             <h4>Riga</h4>
-                            <img loading="lazy" src="includes/img/destination-riga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-riga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                         </a>
                     </li>
                     <hr>
                     <li>
                         <a href="">
                             <h4>Sardinië</h4>
-                            <img loading="lazy" src="includes/img/destination-sardinië.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-sardinië.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                         </a>
                     </li>
                     <hr>
                     <li>
                         <a href="">
                             <h4>Nice</h4>
-                            <img loading="lazy" src="includes/img/destination-nice.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            <img loading="lazy" src="img/destination-nice.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
                         </a>
                     </li>
                 </ul>
