@@ -21,8 +21,8 @@
             <ul>
                 <li><a href="">Vluchtstatus</a></li>
                 <li><a href="">Online inchecken</a></li>
-                <li><a href="">Reisinspiratie</a></li>
                 <li><a href="">Bestemmingen</a></li>
+                <li><a href="">Reviews</a></li>
                 <li><a>|</a></li>
                 <li><a href="pages/login-page.php">Inloggen</a></li>
                 <li><a href="pages/register-page.php">Aanmelden</a></li>
@@ -197,8 +197,9 @@
         </div>  
     </main>
     <footer>
-        <?php 
-        ?>
+        <div class="footer-container">
+            
+        </div>
     </footer>
     <script src="includes/js/carousel.js"></script>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
