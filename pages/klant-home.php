@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <title>admin pagina</title>
+    <title>klant pagina</title>
   </head>
   <body>
     <main>
         <div class="Tables">
-            <h1>Ingelogt als admin</h1>
+            <h1>Ingelogt als klant</h1>
         </div>
     </main>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
