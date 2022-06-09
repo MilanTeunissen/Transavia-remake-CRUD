@@ -1,19 +1,21 @@
-<?php include("includes/session.php"); ?>
+<?php include('../includes/PHP/session.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../includes/css/style.css">
-    <title>IcT Air</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>admin pagina</title>
+  </head>
+  <body>
     <main>
-       <h1>je bent ingelogt</h1> 
-
+        <div class="Tables">
+            <?php echo "hallo"; ?>
+        </div>
     </main>
-
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

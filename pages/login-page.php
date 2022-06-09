@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,25 +12,21 @@
   <body>
     <main>
         <div class="login">
-            <form class="login_form" action="">
+            <form class="login_form" action="../../php/login.php" method="POST" >
                 <h1>Inloggen</h1>
                 <div class="elem-group">
-                    <label for="name">Voor Naam:</label>
-                    <input type="text" id="name" name="department" placeholder="Albertus" pattern=[A-Z\sa-z]{3,20} required>
+                    <label for="name">Gebruikersnaam:</label>
+                    <input type="text" id="name" name="gebruikersnaam"  placeholder="Gebruikersnaam" pattern=[A-Z\sa-z]{3,20} required>
                 </div>
                 <div class="elem-group">
-                    <label for="name">Achter Naam:</label>
-                    <input type="text" id="name" name="arival" placeholder="Wilhelmus" required>
-                </div>
-                <div class="elem-group">
-                    <label for="name">Email:</label>
-                    <input type="text" id="name" name="arival" placeholder="AlbertusWilhelmus@gmail.com" required>
+                    <label for="name">Wachtwoord:</label>
+                    <input type="password" id="name" name="wachtwoord" placeholder="Wachtwoord" required>
                 </div>
                 <div class="elem-group-end">
                   <a href="register-page.php">Nog geen account?</a>
                   <a href="../../index.html">Terug</a>
                 </div>
-                <button type="submit">Zoeken</button>
+                <button type="submit" name="inlogSubmit">inloggen</button>
             </form>
         </div>
     </main>
