@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>IcT Air</title>
 </head>
-<body>
+<body id="home">
     <nav>
         <div class="nav_items primary">
             <ul>
@@ -198,8 +198,42 @@
     </main>
     <footer>
         <div class="footer-container">
-            
+            <div class="footer-left">
+                <h3>Over IcT Air</h3>
+                <ul>
+                    <li>
+                        <a href="">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Werken bij IcT Air</a>
+                    </li>
+                    <li>
+                        <a href="">Nieuws</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>Contact</h3>
+                <ul>
+                    <li>
+                        <p>IcTAir@gmail.com</p>
+                    </li>
+                    <li>
+                        <p>+024 69682725</p>
+                    </li>                    
+                    <li>
+                        <p>Technovium Nijmegen</p>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <a href="#home">
+            <i class="fa-solid fa-circle-up" ></i>
+        </a>
     </footer>
     <script src="includes/js/carousel.js"></script>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>

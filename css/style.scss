@@ -15,11 +15,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    @include flexcenter();
-    flex-direction: column;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -323,4 +318,29 @@ footer {
     border-top: 1px solid #91a3b7;
     background-color: #f3f0ed;
     padding: 2.5%;
+    .footer-container {
+        @include flexcenter();
+        gap: 15rem;
+        .footer-left, .footer-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 0.2rem;
+                list-style-type: none;
+                li a {
+                    text-decoration: none;
+                    color: #111111;
+                }
+            }
+        }
+    }
+    a i {
+        position: absolute;
+        color: #111111;
+        font-size: 3em;
+        right: 10%;
+    }
 }
