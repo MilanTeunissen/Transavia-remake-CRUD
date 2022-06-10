@@ -16,6 +16,11 @@
             <?php echo "hallo"; ?>
         </div>
     </main>
+    <footer>
+        <?php
+            require_once("includes/footer.php");
+        ?>
+    </footer>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
   </body>
 </html>
