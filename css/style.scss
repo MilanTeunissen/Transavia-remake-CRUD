@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
 }
 
+// navigation
 nav {
     display: flex;
     align-items: center;
@@ -44,6 +45,8 @@ nav {
     }
 }
 
+
+//header
 header {
     display: flex;
     justify-content: center;
@@ -130,6 +133,7 @@ header {
     }
 }
 
+// login
 .login {
     display: flex;
     justify-content: center;
@@ -187,6 +191,7 @@ header {
     }
 }
 
+// home pagegit 
 .intersection {
     @include flexcenter();
     padding: 4% 0;
@@ -312,15 +317,16 @@ header {
     }
 }
 
+
+// footer
 footer {
-    @include flexcenter();
     width: 100%;
     border-top: 1px solid #91a3b7;
-    background-color: #f3f0ed;
-    padding: 2.5%;
+    background:#f7f7f7;
     .footer-container {
         @include flexcenter();
         gap: 15rem;
+        padding: 2% 0;
         .footer-left, .footer-right {
             display: flex;
             flex-direction: column;
@@ -335,6 +341,21 @@ footer {
                     color: #111111;
                 }
             }
+        }
+
+    }
+    .copyright {
+        @include flexcenter();
+        flex-direction: column;
+        width: 100%;
+        background: #f3f0ed ;
+        padding: 1.5% 0;
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+        p strong {
+            font-weight: bold;
         }
     }
     a i {

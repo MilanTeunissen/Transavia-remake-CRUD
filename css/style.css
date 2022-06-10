@@ -527,19 +527,9 @@ header .carousel #prevBtn {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 100%;
   border-top: 1px solid #91a3b7;
-  background-color: #f3f0ed;
-  padding: 2.5%;
+  background: #f7f7f7;
 }
 
 footer .footer-container {
@@ -553,6 +543,7 @@ footer .footer-container {
       -ms-flex-align: center;
           align-items: center;
   gap: 15rem;
+  padding: 2% 0;
 }
 
 footer .footer-container .footer-left, footer .footer-container .footer-right {
@@ -581,6 +572,34 @@ footer .footer-container .footer-left ul, footer .footer-container .footer-right
 footer .footer-container .footer-left ul li a, footer .footer-container .footer-right ul li a {
   text-decoration: none;
   color: #111111;
+}
+
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background: #f3f0ed;
+  padding: 1.5% 0;
+}
+
+footer .copyright a {
+  text-decoration: none;
+  color: #111111;
+}
+
+footer .copyright p strong {
+  font-weight: bold;
 }
 
 footer a i {
