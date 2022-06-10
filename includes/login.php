@@ -1,18 +1,27 @@
 <?php 
  if (isset($_POST['inlogSubmit'])) {
-    session_start();
-    require_once("../php/connector.php");
+    require_once("../includes/connector.php");
 
-    $sql = "SELECT ID, wachtwoord FROM accounts WHERE naam = :naam";
+    $sql = "SELECT ID, wachtwoord, admin FROM accounts WHERE naam = :naam";
     $stmt = $connect->prepare($sql);
     $stmt->bindParam(':naam', $_POST['gebruikersnaam']);
     $stmt->execute();
     $result = $stmt->fetch();
 
     if ($stmt->rowCount() > 0) {
-        if($_POST['wachtwoord'] === $result['wachtwoord']) {
+        if(password_verify($_POST['wachtwoord'], $result['wachtwoord'])) {
+            session_start();
             $_SESSION['ID'] = $result['ID'];
-            header('Location: ../includes/pages/admin-home.php');
+
+            if($result['admin'] === 1) {
+                $_SESSION['admin'] = true;
+                header('Location: ../pages/admin-home.php');
+
+            } else {
+                $_SESSION['admin'] = false;
+                header('Location: ../pages/klant-home.php');
+
+            }
         } else {
             echo "username of password incorrect!";
         }
@@ -20,10 +29,3 @@
         echo "username of password incorrect!";
         exit();
     }
-
-
-
-
-} else {
-    header('Location: ../includes/pages/login-page.php');
-}
