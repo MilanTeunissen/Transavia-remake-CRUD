@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['toevoegenSubmit'])) {
+if (isset($_POST['registrerenSubmit'])) {
 
     require_once("../includes/connector.php");
 

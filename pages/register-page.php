@@ -39,7 +39,7 @@
                   <a href="login-page.php">Heb je al een account?</a>
                   <a href="../index.html">Terug</a>
                 </div>
-                <button type="submit" name="toevoegenSubmit">account aanmaken!</button>
+                <button type="submit" name="registrerenSubmit">account aanmaken!</button>
             </form>
         </div>
     </main>
