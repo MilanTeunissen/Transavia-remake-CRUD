@@ -198,7 +198,7 @@
     </main>
     <footer>
         <?php
-            require_once("includes/footer.php");
+            require_once("includes/PHP/footer.php");
         ?>
     </footer>
     <script src="includes/js/carousel.js"></script>

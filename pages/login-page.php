@@ -12,7 +12,7 @@
   <body>
     <main>
         <div class="login">
-            <form class="login_form" action="../../php/login.php" method="POST" >
+            <form class="login_form" action="../includes/login.php" method="POST" >
                 <h1>Inloggen</h1>
                 <div class="elem-group">
                     <label for="name">Gebruikersnaam:</label>
@@ -30,11 +30,6 @@
             </form>
         </div>
     </main>
-    <footer>
-        <?php
-            require_once("includes/footer.php");
-        ?>
-    </footer>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
   </body>
 </html>

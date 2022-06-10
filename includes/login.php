@@ -28,4 +28,4 @@
     } else {
         echo "username of password incorrect!";
         exit();
-    }
+    }}
