@@ -442,3 +442,29 @@ footer {
         right: 10%;
     }
 }
+
+/*back-end*/ 
+.admin_panel {
+    @include flexcenter();
+    flex-direction: column;
+    background: #f3f0ed;
+    color: $green;
+    border-radius: 2vh;
+    margin: 10px;
+    button {
+        padding: 5% 10%;
+        border-radius: 1.5rem;
+        border: 0px solid;
+        background: #FFC53A;
+        color: #111111;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    .accounts_table {
+        padding: 15px;
+        table tr {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
