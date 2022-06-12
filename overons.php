@@ -30,6 +30,9 @@
     <header>
         
     </header>
+    <?php
+        require_once("includes/footer.php");
+    ?>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
 </body>
 </html>
