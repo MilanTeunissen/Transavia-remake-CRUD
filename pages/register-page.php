@@ -37,7 +37,7 @@
                 </div>
                 <div class="elem-group-end">
                   <a href="login-page.php">Heb je al een account?</a>
-                  <a href="../index.html">Terug</a>
+                  <a href="../index.php">Terug</a>
                 </div>
                 <button type="submit" name="registrerenSubmit">account aanmaken!</button>
             </form>
