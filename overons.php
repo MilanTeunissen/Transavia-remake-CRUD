@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="home">
     <nav>
         <div class="nav_items primary">
             <ul>
@@ -28,8 +28,45 @@
         </div>
     </nav>
     <header>
-        
+        <div class="header-overons">
+            <img loading="lazy" src="img/header-overons.png" alt="">
+            <div class="header-overons-text">
+                <i class="fa-solid fa-plane"></i>
+                <h2>IcT Air</h2>
+            </div>
+        </div>
     </header>
+    <main>
+        <div class="overons-container">
+            <div class="overons-container-intro">
+                <h2>Welkom bij IcT Air</h2>
+                <p>IcT Air is een budgetluchtvaartmaatschappij die in 2022 is opgericht. Sinds kort brengen wij onze passagiers met veel plezier naar de mooiste zakelijke en vakantiebestemmingen in Europa. IcT Air is onderdeel van de AIR FRANCE KLM Groep. Daarmee behoren we tot de grootste luchtvaartgroep van Europa.</p>
+            </div>
+            <div class="overons-container-text">
+                <h2>Fun Facts:</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>
+                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>
+                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>
+                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
     <?php
         require_once("includes/footer.php");
     ?>

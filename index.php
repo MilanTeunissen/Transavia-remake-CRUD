@@ -198,7 +198,7 @@
     <?php
         require_once("includes/footer.php");
     ?>
-    <script src="includes/js/carousel.js"></script>
+    <script src="js/carousel.js"></script>
     <script src="https://kit.fontawesome.com/460a8e1fd0.js" crossorigin="anonymous"></script>
 </body>
 </html>
