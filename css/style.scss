@@ -395,6 +395,77 @@ header {
     }
 }
 
+// contact
+.contact-container {
+    @include flexcenter();
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.2em;
+    padding: 5% 0 0 0;
+    gap: 5rem;
+        &-text {
+        @include flexcenter();
+        flex-direction: column;
+        gap: 2rem;
+        h1 {
+            color: $green;
+        }
+        h3 {
+            width: 35%;
+        }
+    }
+    .mapouter {
+        position:relative;
+        text-align:right;
+        width:100%;
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            iframe {
+                border-top: 1px solid #111111;
+                border-bottom: 1px solid #111111;
+                height: 60vh;
+                width: 100%;
+            }
+        }
+    }
+    &-form {
+        @include flexcenter();
+        width: 100%;
+        padding-bottom: 5%;
+        form {
+            @include flexcenter();
+            flex-direction: column;
+            width: 40%;
+            gap: 1rem;
+            input, textarea {
+                width: 40%;
+                padding: 1.6%;
+            }
+            button {
+                padding: 2%;
+                border-radius: 1vh;
+            }
+        }
+        &-extra {
+            @include flexcenter();
+            flex-direction: column;
+            width: 40%;
+            gap: 2rem;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                list-style-type: none;
+                li a {
+                    text-decoration: none;
+                    color: #111111;
+                }
+            }
+        }
+    }
+}
+
 // footer
 footer {
     width: 100%;
