@@ -781,13 +781,34 @@ footer a i {
 }
 
 .admin_panel .accounts_table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
   padding: 15px;
 }
 
+.admin_panel .accounts_table table {
+  border: 1px solid;
+  width: 60%;
+}
+
 .admin_panel .accounts_table table tr {
+  border: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+}
+
+.admin_panel .accounts_table table tr td, .admin_panel .accounts_table table tr th {
+  width: 20%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
