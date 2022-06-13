@@ -8,25 +8,9 @@
     <title>Document</title>
 </head>
 <body id="home">
-    <nav>
-        <div class="nav_items primary">
-            <ul>
-                <li><a href="index.php"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="">Plan en boek</a></li>
-                <li><a href="">Service</a></li>
-            </ul>
-        </div>
-        <div class="nav_items secondary">
-            <ul>
-                <li><a href="">Bestemmingen</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="overons.php">Over ons</a></li>
-                <li><a>|</a></li>
-                <li><a href="pages/login-page.php">Inloggen</a></li>
-                <li><a href="pages/register-page.php">Aanmelden</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php
+        require_once("includes/navigation.php");
+    ?>
     <header>
         <div class="header-overons">
             <img loading="lazy" src="img/header-overons.png" alt="">
