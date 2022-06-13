@@ -48,19 +48,19 @@
                     <li>
                         <i class="fa-solid fa-check"></i>
                         <p>
-                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                            Ict Air is opgestart door 2, 1e jaars studenten in Nijmegen in het jaar 2022.
                         </p>
                     </li>
                     <li>
                         <i class="fa-solid fa-check"></i>
                         <p>
-                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                            Wij gebruiken duurzame brandstof en pinda's
                         </p>
                     </li>
                     <li>
                         <i class="fa-solid fa-check"></i>
                         <p>
-                            Ict Air is opgestart door 2 studenten in Nijmegen in het jaar 2022.
+                            Wij hebben een hulp service die 24/7 klaar staat voor u!
                         </p>
                     </li>
                 </ul>
