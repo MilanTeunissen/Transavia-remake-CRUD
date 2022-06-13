@@ -17,7 +17,33 @@
             <a href="../../includes/logout.php"><button>Uitloggen</button></a>
             <h2>Accounts</h2>
             <div class="accounts_table">
-            <table>
+              <table>
+                    <tr>
+                        <th>Voornaam</th>
+                        <th>Achternaam</th>
+                        <th>Wachtwoord</th>
+                        <th>Geboorten datum</th>
+                        <th>email</th>
+                    </tr>
+                    <?php include("../../includes/accounts_table.php") ?>
+                </table>
+            </div>
+            <h2>Vluchten</h2>
+            <div class="accounts_table">
+              <table>
+                    <tr>
+                        <th>Voornaam</th>
+                        <th>Achternaam</th>
+                        <th>Wachtwoord</th>
+                        <th>Geboorten datum</th>
+                        <th>email</th>
+                    </tr>
+                    <?php include("../../includes/accounts_table.php") ?>
+                </table>
+            </div>
+            <h2>Reviews</h2>
+            <div class="accounts_table">
+              <table>
                     <tr>
                         <th>Voornaam</th>
                         <th>Achternaam</th>

@@ -461,10 +461,21 @@ footer {
         font-weight: bold;
     }
     .accounts_table {
+        @include flexcenter();
+        width: 80%;
         padding: 15px;
-        table tr {
-            display: flex;
-            gap: 1rem;
+        table {
+            border: 1px solid;
+            width: 60%;
+            tr {
+                border: 1px solid;
+                display: flex;
+                gap: 1rem;
+                td, th {  
+                    width: 20%;
+                    text-align: center;
+                }
+            }
         }
     }
 }
