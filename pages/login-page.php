@@ -12,7 +12,7 @@
   <body>
     <main>
         <div class="login">
-            <form class="login_form" action="../../php/login.php" method="POST" >
+            <form class="login_form" action="../includes/login.php" method="POST" >
                 <h1>Inloggen</h1>
                 <div class="elem-group">
                     <label for="name">Gebruikersnaam:</label>
