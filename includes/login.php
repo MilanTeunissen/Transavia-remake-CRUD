@@ -15,7 +15,7 @@
 
             if($result['admin'] === 1) {
                 $_SESSION['admin'] = true;
-                header('Location: ../pages/admin-home.php');
+                header('Location: ../pages/adminpages/admin-home.php');
 
             } else {
                 $_SESSION['admin'] = false;
