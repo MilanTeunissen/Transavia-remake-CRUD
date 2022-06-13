@@ -666,6 +666,146 @@ header .header-overons-text h2 {
   margin: auto 0;
 }
 
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  font-size: 1.2em;
+  padding: 5% 0 0 0;
+  gap: 5rem;
+}
+
+.contact-container-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-container-text h1 {
+  color: #00d66c;
+}
+
+.contact-container-text h3 {
+  width: 35%;
+}
+
+.contact-container .mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+.contact-container .mapouter .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+
+.contact-container .mapouter .gmap_canvas iframe {
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #111111;
+  height: 60vh;
+  width: 100%;
+}
+
+.contact-container-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.contact-container-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  gap: 1rem;
+}
+
+.contact-container-form form input, .contact-container-form form textarea {
+  width: 40%;
+  padding: 1.6%;
+}
+
+.contact-container-form form button {
+  padding: 2%;
+  border-radius: 1vh;
+}
+
+.contact-container-form-extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+}
+
+.contact-container-form-extra ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.contact-container-form-extra ul li a {
+  text-decoration: none;
+  color: #111111;
+}
+
 footer {
   width: 100%;
   border-top: 1px solid #91a3b7;
