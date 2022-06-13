@@ -1,5 +1,5 @@
 <?php 
-require_once("../includes/connector.php");
+require_once("../../includes/connector.php");
 $dataTable = "crud-ict";
 $sql = "select * FROM accounts";
 $stmt = $connect->prepare($sql);
