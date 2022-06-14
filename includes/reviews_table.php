@@ -13,6 +13,15 @@ $result = $stmt->fetchAll();
         echo   "<td>" . $result['bericht'] ."</td>";
         echo   "<td>" . $result['rating'] ."</td>";
         echo   "<td>" . $result['bestemming'] ."</td>";
-        echo   "<td>" . $result['validate'] ."</td>";
+        if ($result['validate'] == 1) {
+            echo   "<td>Goedgekeurd</td>";
+        } elseif ($result['validate'] == 2) {
+            echo   "<td>Geweigerd</td>";
+        } else {
+            echo   "<td>
+                    <a href='../../includes/validate.php?ID=".$result['ID']."&validate=1'><button>Accept</button></a>
+                    <a href='../../includes/validate.php?ID=".$result['ID']."&validate=2'><button>Decline</button></a>
+                    </td>";
+        }
         echo   "</tr>"; 
     }
