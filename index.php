@@ -42,13 +42,13 @@
             </form>
             <i class="fa-solid fa-circle-right" id="nextBtn"></i>
             <div class="carousel_slide">
-                <img loading="lazy" src="img/carousel_vacation2.png" id="lastclone" alt="">
-                <img loading="lazy" src="img/carousel_plane.png" alt="">
-                <img loading="lazy" src="img/carousel_destenation.png" alt="">
-                <img loading="lazy" src="img/carousel_airport.png" alt="">
-                <img loading="lazy" src="img/carousel_vacation.png" alt="">
-                <img loading="lazy" src="img/carousel_vacation2.png" alt="">
-                <img loading="lazy" src="img/carousel_plane.png" id="firstclone" alt="">
+                <img src="img/carousel_vacation2.png" id="firstclone" alt="">
+                <img src="img/carousel_plane.png" alt="">
+                <img src="img/carousel_destenation.png" alt="">
+                <img src="img/carousel_airport.png" alt="">
+                <img src="img/carousel_vacation.png" alt="">
+                <img src="img/carousel_vacation2.png" alt="">
+                <img src="img/carousel_plane.png" id="lastclone" alt="">
             </div>
         </div>
     </header>
