@@ -1,19 +1,23 @@
 <?php 
-require_once("includes/connector.php");
-$sql = "select * FROM reviews";
+require_once("connector.php");
+$result['validate'] = 1;
+$sql = "select * FROM reviews WHERE validate = :validate";
 $stmt = $connect->prepare($sql);
-$stmt->bindParam(':validate', $_POST['validate']);
+$stmt->bindParam(':validate', $result['validate']);
 $stmt->execute();
-$result = $stmt->fetchAll();
+$results = $stmt->fetchAll();
 
     
-    if($_GET['validate'] === 1) {
-        echo   "<div class='Menu'>";
-        echo   "<p class='Menu_head'>" . $result['naam'] ."</p>";
-        echo   "<p class='Menu_text'>" . $result['beschrijving'] ."</p>";
-        echo   "<p class='Menu_text'>€" . $roundedPrice ."</p>";
+    foreach($results as $result){
+        echo   "<div class='review_klant'>";
+        echo   "<p class='review_naam'>" . $result['naam'] ."</p>";
+        echo   "<p class='review_bericht'>" . $result['bericht'] ."</p>";
+        echo   "<p class='star'>" . $result['rating'] ."</p>";
+        echo   "<p class='review_bestemming'>" . $result['bestemming'] ."</p>";
         echo   "</div>"; 
 
+
     }
+
  
 
