@@ -467,6 +467,19 @@ header {
     }
 }
 
+//review
+.star-rating {
+    .star {
+        font-size: 1.5em;
+        background: none;
+        border: none;
+        color: #FFC53A;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
 // footer
 footer {
     width: 100%;

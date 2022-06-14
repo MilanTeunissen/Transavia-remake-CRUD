@@ -807,6 +807,17 @@ header .header-overons-text h2 {
   color: #111111;
 }
 
+.star-rating .star {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  color: #FFC53A;
+}
+
+.star-rating .star:hover {
+  cursor: pointer;
+}
+
 footer {
   width: 100%;
   border-top: 1px solid #91a3b7;
