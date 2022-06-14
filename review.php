@@ -21,7 +21,10 @@
         <button class="star">&#9734;</button>
     </div>
 
-
+    <div class="reviews">
+        <h1>Lees hier reviews van onze klanten!</h1>
+        <?php include("includes/reviews_page.php") ?>
+    </div>
     <?php
         require_once("includes/footer.php");
     ?>
