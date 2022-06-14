@@ -16,7 +16,7 @@
             <h1>Admin paneel</h1>
             <a href="../../includes/logout.php"><button>Uitloggen</button></a>
             <h2>Accounts</h2>
-            <div class="accounts_table">
+            <div class="admin_table">
               <table>
                     <tr>
                         <th>Voornaam</th>
@@ -29,7 +29,7 @@
                 </table>
             </div>
             <h2>Vluchten</h2>
-            <div class="accounts_table">
+            <div class="admin_table">
               <table>
                     <tr>
                         <th>Voornaam</th>
@@ -42,16 +42,16 @@
                 </table>
             </div>
             <h2>Reviews</h2>
-            <div class="accounts_table">
+            <div class="admin_table">
               <table>
                     <tr>
-                        <th>Voornaam</th>
-                        <th>Achternaam</th>
-                        <th>Wachtwoord</th>
-                        <th>Geboorten datum</th>
-                        <th>email</th>
+                        <th>naam</th>
+                        <th>bericht</th>
+                        <th>rating</th>
+                        <th>bestemming</th>
+                        <th>validated</th>
                     </tr>
-                    <?php include("../../includes/accounts_table.php") ?>
+                    <?php include("../../includes/reviews_table.php") ?>
                 </table>
             </div>
         </div>

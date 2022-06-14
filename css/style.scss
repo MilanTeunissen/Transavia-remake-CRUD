@@ -531,10 +531,12 @@ footer {
         font-size: 0.9em;
         font-weight: bold;
     }
-    .accounts_table {
+    .admin_table {
         @include flexcenter();
         width: 80%;
         padding: 15px;
+        font-size: 1.2em;
+        color: #111111;
         table {
             border: 1px solid;
             width: 60%;
