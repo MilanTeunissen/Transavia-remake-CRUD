@@ -19,6 +19,7 @@
         <button class="star">&#9734;</button>
         <button class="star">&#9734;</button>
         <button class="star">&#9734;</button>
+        <p class="current-rating">0 of 5</p>
     </div>
 
 
