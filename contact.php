@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="home">
     <?php
         require_once("includes/navigation.php");
     ?>
@@ -15,7 +15,7 @@
         <div class="contact-container">
             <div class="contact-container-text">
                 <h1>Contact</h1>
-                <h3>Wil je graag meer weten over een boeking of ben je een journalist en heb je mediavragen over Transavia? Via de onderstaande informatie kun je contact met ons opnemen.</h3>
+                <h3>Wil je graag meer weten over een boeking of ben je een journalist en heb je mediavragen over Ict Air? Via de onderstaande informatie kun je contact met ons opnemen.</h3>
             </div>
             <div class="mapouter">
                 <div class="gmap_canvas">
@@ -32,9 +32,9 @@
                 <form class="form">
                     <h3>Uw gegevens</h3>
                     <label for="Naam">Naam</label>
-                    <input type="text" name="onzin" placeholder="Naam" class="input_text"/>
+                    <input type="text" name="onzin" placeholder="Naam"/>
                     <label>E-mail</label>
-                    <input type="text" name="E-mail" placeholder="E-mail" class="input_text"/>
+                    <input type="text" name="E-mail" placeholder="E-mail"/>
                     <label for="bericht">Uw bericht</label>
                     <textarea class="bericht" placeholder="Type hier uw bericht"></textarea>
                     <button class="submit" type="submit">Verstuur</button>

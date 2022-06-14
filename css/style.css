@@ -757,18 +757,19 @@ header .header-overons-text h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40%;
+  width: 30%;
   gap: 1rem;
 }
 
 .contact-container-form form input, .contact-container-form form textarea {
-  width: 40%;
+  width: 50%;
   padding: 1.6%;
 }
 
 .contact-container-form form button {
-  padding: 2%;
+  padding: 3%;
   border-radius: 1vh;
+  background: #FFC53A;
 }
 
 .contact-container-form-extra {
@@ -785,7 +786,7 @@ header .header-overons-text h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40%;
+  width: 30%;
   gap: 2rem;
 }
 
