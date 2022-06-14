@@ -921,7 +921,7 @@ footer a i {
   font-weight: bold;
 }
 
-.admin_panel .accounts_table {
+.admin_panel .admin_table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -933,14 +933,16 @@ footer a i {
           align-items: center;
   width: 80%;
   padding: 15px;
+  font-size: 1.2em;
+  color: #111111;
 }
 
-.admin_panel .accounts_table table {
+.admin_panel .admin_table table {
   border: 1px solid;
   width: 60%;
 }
 
-.admin_panel .accounts_table table tr {
+.admin_panel .admin_table table tr {
   border: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -948,7 +950,7 @@ footer a i {
   gap: 1rem;
 }
 
-.admin_panel .accounts_table table tr td, .admin_panel .accounts_table table tr th {
+.admin_panel .admin_table table tr td, .admin_panel .admin_table table tr th {
   width: 20%;
   text-align: center;
 }
