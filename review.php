@@ -30,7 +30,7 @@
                     </div>
                     <p class="current-rating">0 of 5</p>
                 </div>
-                <textarea name="" id="" cols="25" rows="5" placeholder="Uw review."></textarea>
+                <textarea name="bericht" id="" cols="25" rows="5" placeholder="Uw review."></textarea>
                 <button class="submit" type="submit">Verstuur</button>
             </div>
         </div>
