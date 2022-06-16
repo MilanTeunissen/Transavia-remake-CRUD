@@ -9,15 +9,52 @@ $results = $stmt->fetchAll();
 
     
     foreach($results as $result){
-        echo   "<div class='review_klant'>";
-        echo   "<p class='review_naam'>" . $result['naam'] ."</p>";
-        echo   "<p class='review_bericht'>" . $result['bericht'] ."</p>";
-        echo   "<p class='star'>" . $result['rating'] ."</p>";
-        echo   "<p class='review_bestemming'>" . $result['bestemming'] ."</p>";
-        echo   "</div>"; 
+?>
+        <div class="review">
+            <div class="user-rating">
+            <div class="user-review">
+            <div class="user-img">
+                       <img src="img/rick-raddatz.png" alt="">
+                    </div>
+                    <p><b><?php echo $result['naam']; ?></b><br> heeft<b> <?php echo $result['bestemming']; ?></b> beoordeeld</p>
+                </div>
+                <div class="star-rating">
+                    <div class="star-rating-stars">
+                        <?php if($result['rating'] === 1){
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 2){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 3){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 4){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 5){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        }  
 
+                        ?>
+                    </div>
+                    <p class="current-rating"><?php echo $result['rating']; ?> of 5</p>
+                </div>
+                <p><?php echo $result['bericht']; ?></p>
+            </div>
+        </div>
 
+<?php 
     }
+?>
+
+    
 
  
 
