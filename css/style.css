@@ -1010,6 +1010,21 @@ header .klant-home-header h1 {
   gap: 1rem;
 }
 
+.klant-home-boeken-box-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 5px;
+  background-color: #dc0000;
+  color: white;
+  width: 60%;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
 footer {
   width: 100%;
   border-top: 1px solid #91a3b7;
