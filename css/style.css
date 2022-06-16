@@ -983,7 +983,7 @@ header .klant-home-header h1 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  height: 40vh;
+  height: 45vh;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -1000,6 +1000,12 @@ header .klant-home-header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1019,9 +1025,12 @@ header .klant-home-header h1 {
           justify-content: center;
   padding: 20px 5px;
   background-color: #dc0000;
-  color: white;
   width: 60%;
   font-size: 0.8em;
+}
+
+.klant-home-boeken-box-buttons a {
+  color: white;
   text-decoration: none;
 }
 
