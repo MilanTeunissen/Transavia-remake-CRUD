@@ -849,7 +849,7 @@ header .header-overons-text h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .review-page .review .user-rating .user-review .user-img {
@@ -929,6 +929,10 @@ header .header-overons-text h2 {
   color: #111111;
   font-size: 0.9em;
   font-weight: bold;
+}
+
+.reviews {
+  padding: 5% 0;
 }
 
 footer {
