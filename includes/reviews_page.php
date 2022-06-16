@@ -20,11 +20,29 @@ $results = $stmt->fetchAll();
                 </div>
                 <div class="star-rating">
                     <div class="star-rating-stars">
-                        <button class="star">&#9734;</button>
-                        <button class="star">&#9734;</button>
-                        <button class="star">&#9734;</button>
-                        <button class="star">&#9734;</button>
-                        <button class="star">&#9734;</button>
+                        <?php if($result['rating'] === 1){
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 2){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 3){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 4){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        } elseif ($result['rating'] === 5){
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<button class='star'>&#9734;</button>";
+                        }  
+
+                        ?>
                     </div>
                     <p class="current-rating"><?php echo $result['rating']; ?> of 5</p>
                 </div>
