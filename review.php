@@ -12,6 +12,7 @@
         require_once("includes/navigation.php");
     ?>
     <main  class="review-page">
+        <h2></h2>
         <div class="review">
             <div class="user-rating">
                 <div class="user-review">
