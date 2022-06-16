@@ -29,15 +29,15 @@
                 </div>
             </div>
             <div class="contact-container-form">
-                <form class="form">
+                <form class="form" action="../includes/message.php" method="POST">
                     <h3>Uw gegevens</h3>
                     <label for="Naam">Naam</label>
-                    <input type="text" name="onzin" placeholder="Naam"/>
+                    <input type="text" name="Naam" placeholder="Naam"/>
                     <label>E-mail</label>
-                    <input type="text" name="E-mail" placeholder="E-mail"/>
+                    <input type="text" name="Email" placeholder="E-mail"/>
                     <label for="bericht">Uw bericht</label>
-                    <textarea class="bericht" placeholder="Type hier uw bericht"></textarea>
-                    <button class="submit" type="submit">Verstuur</button>
+                    <textarea class="bericht" name="bericht" placeholder="Type hier uw bericht"></textarea>
+                    <button class="submit" name="berichtSubmit" type="submit">Verstuur</button>
                 </form>
                 <div class="contact-container-form-extra">
                 <h3>Onze gegevens</h3>
