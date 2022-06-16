@@ -576,6 +576,16 @@ header {
             color: white;
             font-size: 1.1em;
             gap: 1rem;
+            &-buttons {
+                display: flex;
+                justify-content: center;
+                padding: 20px 5px;
+                background-color: rgb(220, 0, 0);
+                color: white;
+                width: 60%;
+                font-size: 0.8em;
+                text-decoration: none;
+            }
         }
     }
 }
