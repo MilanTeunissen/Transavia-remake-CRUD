@@ -19,7 +19,7 @@
 
             } else {
                 $_SESSION['admin'] = false;
-                header('Location: ../pages/klant-home.php');
+                header('Location: ../pages/klantpages/klant-home.php');
 
             }
         } else {

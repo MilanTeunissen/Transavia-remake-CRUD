@@ -242,6 +242,27 @@ header .header-overons-text h2 {
   text-shadow: 3px 3px #111111;
 }
 
+header .klant-home-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 4%;
+}
+
+header .klant-home-header h1 {
+  color: #00d66c;
+}
+
 .login {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,6 +954,60 @@ header .header-overons-text h2 {
 
 .reviews {
   padding: 5% 0;
+}
+
+.klant-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.klant-home-boeken {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.klant-home-boeken img {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+}
+
+.klant-home-boeken-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  color: white;
+  font-size: 1.1em;
+  gap: 1rem;
 }
 
 footer {
