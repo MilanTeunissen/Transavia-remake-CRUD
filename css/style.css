@@ -807,15 +807,132 @@ header .header-overons-text h2 {
   color: #111111;
 }
 
-.star-rating .star {
-  font-size: 1.5em;
+.review-page {
+  background: #eeeded;
+}
+
+.review-page .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 0;
+}
+
+.review-page .review .user-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  background-color: white;
+  border: 1px solid #111111;
+  padding: 1.5% 3%;
+  gap: 1rem;
+}
+
+.review-page .review .user-rating .user-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.review-page .review .user-rating .user-review .user-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.review-page .review .user-rating .user-review .user-img img {
+  height: 6vh;
+  width: 6vh;
+}
+
+.review-page .review .user-rating .user-review p {
+  font-size: 0.9em;
+  margin: auto 0;
+}
+
+.review-page .review .user-rating .star-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  gap: 1rem;
+}
+
+.review-page .review .user-rating .star-rating-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.review-page .review .user-rating .star-rating-stars .star {
+  height: auto;
+  font-size: 2em;
   background: none;
   border: none;
   color: #FFC53A;
 }
 
-.star-rating .star:hover {
+.review-page .review .user-rating .star-rating-stars .star:hover {
   cursor: pointer;
+}
+
+.review-page .review .user-rating .star-rating .current-rating {
+  margin-top: 5%;
+}
+
+.review-page .review .user-rating textarea {
+  width: 100%;
+  padding: 2%;
+  border-color: #91a3b7;
+  resize: none;
+}
+
+.review-page .review .user-rating .submit {
+  padding: 5% 10%;
+  border-radius: 1.5rem;
+  border: 0px solid;
+  background: #FFC53A;
+  color: #111111;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.reviews {
+  padding: 5% 0;
 }
 
 footer {
@@ -932,7 +1049,7 @@ footer a i {
   font-weight: bold;
 }
 
-.admin_panel .admin_table {
+.admin_panel .accounts_table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -944,16 +1061,14 @@ footer a i {
           align-items: center;
   width: 80%;
   padding: 15px;
-  font-size: 1.2em;
-  color: #111111;
 }
 
-.admin_panel .admin_table table {
+.admin_panel .accounts_table table {
   border: 1px solid;
   width: 60%;
 }
 
-.admin_panel .admin_table table tr {
+.admin_panel .accounts_table table tr {
   border: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -961,7 +1076,7 @@ footer a i {
   gap: 1rem;
 }
 
-.admin_panel .admin_table table tr td, .admin_panel .admin_table table tr th {
+.admin_panel .accounts_table table tr td, .admin_panel .accounts_table table tr th {
   width: 20%;
   text-align: center;
 }

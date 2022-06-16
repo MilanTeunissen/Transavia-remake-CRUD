@@ -468,17 +468,81 @@ header {
 }
 
 //review
-.star-rating {
-    .star {
-        font-size: 1.5em;
-        background: none;
-        border: none;
-        color: #FFC53A;
-        &:hover {
-            cursor: pointer;
+.review-page {
+    background: #eeeded;
+    .review {
+        @include flexcenter();
+        padding: 5% 0;
+        .user-rating {
+            @include flexcenter();
+            flex-direction: column;
+            width: 30%;
+            background-color: white;
+            border: 1px solid #111111;
+            padding: 1.5% 3%;
+            gap: 1rem;
+            .user-review {
+                display: flex;
+                gap: 3rem;
+                .user-img {
+                    @include flexcenter();
+                    height: 6vh;
+                    width: 6vh;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img {
+                        height: 6vh;
+                        width: 6vh;
+                    }
+                }
+                p {
+                    font-size: 0.9em;
+                    margin: auto 0;
+                }
+            }
+            .star-rating {
+                @include flexcenter();
+                width: auto;
+                gap: 1rem;
+                &-stars {
+                    display: flex;
+                    .star {
+                        height: auto;
+                        font-size: 2em;
+                        background: none;
+                        border: none;
+                        color: #FFC53A;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .current-rating {
+                    margin-top: 5%;
+                }
+            }
+            textarea { 
+                width: 100%;
+                padding: 2%;
+                border-color: #91a3b7;
+                resize: none
+            }
+            .submit {
+                padding: 5% 10%;
+                border-radius: 1.5rem;
+                border: 0px solid;
+                background: #FFC53A;
+                color: #111111;
+                font-size: 0.9em;
+                font-weight: bold;
+            }
         }
     }
 }
+.reviews {
+    padding: 5% 0;
+}
+
 
 // footer
 footer {
@@ -545,12 +609,10 @@ footer {
         font-size: 0.9em;
         font-weight: bold;
     }
-    .admin_table {
+    .accounts_table {
         @include flexcenter();
         width: 80%;
         padding: 15px;
-        font-size: 1.2em;
-        color: #111111;
         table {
             border: 1px solid;
             width: 60%;
