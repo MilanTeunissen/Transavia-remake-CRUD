@@ -559,7 +559,7 @@ header {
     &-boeken {
         @include flexcenter(); 
         position: relative;
-        height: 40vh;
+        height: 45vh;
         width: 100%;
         overflow: hidden;
         text-align: center;
@@ -570,7 +570,7 @@ header {
             width: 100%;
         }
         &-box {
-            display: flex;
+            @include flexcenter();
             flex-direction: column;
             width: 30%;
             color: white;
@@ -581,10 +581,12 @@ header {
                 justify-content: center;
                 padding: 20px 5px;
                 background-color: rgb(220, 0, 0);
-                color: white;
                 width: 60%;
                 font-size: 0.8em;
-                text-decoration: none;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }
