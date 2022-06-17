@@ -16,7 +16,7 @@
                 <h1>Inloggen</h1>
                 <div class="elem-group">
                     <label for="name">Gebruikersnaam:</label>
-                    <input type="text" id="name" name="gebruikersnaam"  placeholder="Gebruikersnaam" pattern=[A-Z\sa-z]{3,20} required>
+                    <input type="text" id="name" name="naam"  placeholder="Gebruikersnaam" pattern=[A-Z\sa-z]{3,20} required>
                 </div>
                 <div class="elem-group">
                     <label for="name">Wachtwoord:</label>

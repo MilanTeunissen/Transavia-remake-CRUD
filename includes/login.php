@@ -4,7 +4,7 @@
 
     $sql = "SELECT ID, wachtwoord, admin FROM accounts WHERE naam = :naam";
     $stmt = $connect->prepare($sql);
-    $stmt->bindParam(':naam', $_POST['gebruikersnaam']);
+    $stmt->bindParam(':naam', $_POST['naam']);
     $stmt->execute();
     $result = $stmt->fetch();
 
