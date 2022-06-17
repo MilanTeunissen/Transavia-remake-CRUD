@@ -14,6 +14,7 @@
     <header>
         <div class="klant-home-header">
             <h1>Welkom Username</h1>
+            <p>Nu je bent ingelogt kunt u gelijk aan de slag om een heerlijke vakantie te boeken</p>
         </div>
     </header>
     <main>
@@ -23,8 +24,8 @@
                 <div class="klant-home-boeken-box">
                     <h2>Boeken</h2>
                     <p>blablabla texttexttext </p>
-                    <div class="klant-home-boeken-box-button">
-                        <a href="">Naar boeken</a>
+                    <div class="klant-home-boeken-box-buttons">
+                        <a class="klant-home-boeken-box-buttons-blue" href="">Naar boeken</a>
                     </div>
                 </div>
             </div>
@@ -33,8 +34,8 @@
                 <div class="klant-home-beheer-box">
                     <h2>Beheer</h2>
                     <p>blablabla texttexttext </p>
-                    <div class="klant-home-boeken-box-buttons">
-                        <a href="">Naar beheer</a>
+                    <div class="klant-home-beheer-box-buttons">
+                        <a class="klant-home-beheer-box-buttons-yellow" href="">Naar beheer</a>
                     </div>
                 </div>
             </div>
@@ -43,8 +44,8 @@
                 <div class="klant-home-service-box">
                     <h2>Service</h2>
                     <p>blablabla texttexttext </p>
-                    <div class="klant-home-boeken-box-buttons">
-                        <a href="">Naar Service</a>
+                    <div class="klant-home-service-box-buttons">
+                        <a class="klant-home-service-box-buttons-green" href="">Naar Service</a>
                     </div>
                 </div>
             </div>

@@ -149,11 +149,9 @@ header {
         @include flexcenter();
         flex-direction: column;
         width: 100%;
-        padding-top: 4%;
+        padding-top: 3%;
         h1 {
-            padding: 5% 10%;
-            background: #eeeded;
-            border: 1px dotted #91a3b7;
+            padding: 3% 0;
             color: $green;
         }
     }
@@ -570,12 +568,20 @@ header {
             &-buttons {
                 display: flex;
                 justify-content: center;
-                padding: 4% 10%;
-                background: #91a3b7;
-                font-size: 0.8em;
+                width: 100%;
                 a {
                     color: white;
                     text-decoration: none;
+                    padding: 4% 10%;
+                }
+                &-blue {
+                    background: #91a3b7;
+                }
+                &-yellow {
+                    background: #FFC53A;
+                }
+                &-green {
+                    background: $green;
                 }
             }
         }
