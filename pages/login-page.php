@@ -26,7 +26,7 @@
                   <a href="register-page.php">Nog geen account?</a>
                   <a href="../index.php">Terug</a>
                 </div>
-                <button type="submit" name="inlogSubmit">inloggen</button>
+                <button type="submit" name="inlogSubmit">Inloggen</button>
             </form>
         </div>
     </main>
