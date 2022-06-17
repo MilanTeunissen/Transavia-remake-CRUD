@@ -74,22 +74,7 @@ header form .elem-group input {
   font-size: 0.9em;
   width: 100%;
 }
-header form .elem-group-inlined {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-header form .elem-group-inlined .date-selection {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-header form .elem-group-inlined input {
-  padding: 4%;
-  border-radius: 0.5rem;
-  border: 1px solid #91a3b7;
-  font-size: 0.9em;
-}
+
 header form button {
   padding: 5% 10%;
   border-radius: 1.5rem;
@@ -160,9 +145,13 @@ header .klant-home-header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   padding-top: 4%;
 }
 header .klant-home-header h1 {
+  padding: 5% 10%;
+  background: #eeeded;
+  border: 1px dotted #91a3b7;
   color: #00d66c;
 }
 
@@ -514,7 +503,7 @@ header .klant-home-header h1 {
   align-items: center;
   flex-direction: column;
   width: 30%;
-  background-color: white;
+  background: white;
   border: 1px solid #111111;
   padding: 1.5% 3%;
   gap: 1rem;
@@ -583,6 +572,10 @@ header .klant-home-header h1 {
   padding: 5% 0;
 }
 
+.reviews h1 {
+  text-align: center;
+}
+
 .klant-home {
   display: flex;
   justify-content: center;
@@ -590,6 +583,10 @@ header .klant-home-header h1 {
   flex-direction: column;
 }
 .klant-home-boeken {
+
+.klant-home-boeken, .klant-home-beheer, .klant-home-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -598,14 +595,19 @@ header .klant-home-header h1 {
   width: 100%;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
-.klant-home-boeken img {
+
+.klant-home-boeken img, .klant-home-beheer img, .klant-home-service img {
   position: absolute;
   z-index: -100;
   width: 100%;
 }
-.klant-home-boeken-box {
+
+
+.klant-home-boeken-box, .klant-home-beheer-box, .klant-home-service-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -615,15 +617,20 @@ header .klant-home-header h1 {
   font-size: 1.1em;
   gap: 1rem;
 }
-.klant-home-boeken-box-buttons {
+
+.klant-home-boeken-box-buttons, .klant-home-beheer-box-buttons, .klant-home-service-box-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  padding: 20px 5px;
-  background-color: rgb(220, 0, 0);
-  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4% 10%;
+  background: #91a3b7;
   font-size: 0.8em;
 }
-.klant-home-boeken-box-buttons a {
+
+.klant-home-boeken-box-buttons a, .klant-home-beheer-box-buttons a, .klant-home-service-box-buttons a {
   color: white;
   text-decoration: none;
 }

@@ -80,22 +80,6 @@ header {
                 width: 100%;
             }
         }
-        .elem-group-inlined {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            .date-selection {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-            }
-            input {
-                padding: 4%;
-                border-radius: 0.5rem;
-                border: 1px solid #91a3b7;
-                font-size: 0.9em;
-            }
-        }
         button {
             padding: 5% 10%;
             border-radius: 1.5rem;
@@ -164,8 +148,12 @@ header {
     .klant-home-header {
         @include flexcenter();
         flex-direction: column;
+        width: 100%;
         padding-top: 4%;
         h1 {
+            padding: 5% 10%;
+            background: #eeeded;
+            border: 1px dotted #91a3b7;
             color: $green;
         }
     }
@@ -486,7 +474,7 @@ header {
             @include flexcenter();
             flex-direction: column;
             width: 30%;
-            background-color: white;
+            background: white;
             border: 1px solid #111111;
             padding: 1.5% 3%;
             gap: 1rem;
@@ -550,26 +538,29 @@ header {
 }
 .reviews {
     padding: 5% 0;
+    h1 {
+        text-align: center
+    }
 }
 
 //klanten page
 .klant-home {
     @include flexcenter(); 
     flex-direction: column;
-    &-boeken {
+    &-boeken, &-beheer, &-service {
         @include flexcenter(); 
         position: relative;
         height: 45vh;
         width: 100%;
         overflow: hidden;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.6);
         & img {
             position: absolute;
             z-index: -100;
             width: 100%;
         }
-        &-box {
+        &-box{
             @include flexcenter();
             flex-direction: column;
             width: 30%;
@@ -579,9 +570,8 @@ header {
             &-buttons {
                 display: flex;
                 justify-content: center;
-                padding: 20px 5px;
-                background-color: rgb(220, 0, 0);
-                width: 60%;
+                padding: 4% 10%;
+                background: #91a3b7;
                 font-size: 0.8em;
                 a {
                     color: white;
