@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="contact-container-form">
-                <form class="form" action="../includes/message.php" method="POST">
+                <form class="form" action="includes/message.php" method="POST">
                     <h3>Uw gegevens</h3>
                     <label for="Naam">Naam</label>
                     <input type="text" name="Naam" placeholder="Naam"/>
