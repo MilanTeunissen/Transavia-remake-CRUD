@@ -20,26 +20,37 @@ $results = $stmt->fetchAll();
                 </div>
                 <div class="star-rating">
                     <div class="star-rating-stars">
-                        <?php if($result['rating'] === 1){
-                            echo  "<button class='star'>&#9734;</button>";
+                        <?php 
+                        if($result['rating'] === 1){
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
                         } elseif ($result['rating'] === 2){
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
                         } elseif ($result['rating'] === 3){
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
                         } elseif ($result['rating'] === 4){
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9734;</p>";
                         } elseif ($result['rating'] === 5){
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
-                            echo  "<button class='star'>&#9734;</button>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='star'>&#9733;</p>";
                         }  
 
                         ?>
