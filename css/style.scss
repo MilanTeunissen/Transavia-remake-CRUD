@@ -80,22 +80,6 @@ header {
                 width: 100%;
             }
         }
-        .elem-group-inlined {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            .date-selection {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-            }
-            input {
-                padding: 4%;
-                border-radius: 0.5rem;
-                border: 1px solid #91a3b7;
-                font-size: 0.9em;
-            }
-        }
         button {
             padding: 5% 10%;
             border-radius: 1.5rem;
@@ -158,6 +142,17 @@ header {
                 color: $green;
                 text-shadow: 3px 3px #111111;
             }
+        }
+    }
+    //klant homepage
+    .klant-home-header {
+        @include flexcenter();
+        flex-direction: column;
+        width: 100%;
+        padding-top: 3%;
+        h1 {
+            padding: 3% 0;
+            color: $green;
         }
     }
 }
@@ -477,7 +472,7 @@ header {
             @include flexcenter();
             flex-direction: column;
             width: 30%;
-            background-color: white;
+            background: white;
             border: 1px solid #111111;
             padding: 1.5% 3%;
             gap: 1rem;
@@ -516,6 +511,12 @@ header {
                             cursor: pointer;
                         }
                     }
+                    .full-star {
+
+                    }
+                    .empty-star {
+
+                    }
                 }
                 .current-rating {
                     margin-top: 5%;
@@ -541,8 +542,57 @@ header {
 }
 .reviews {
     padding: 5% 0;
+    h1 {
+        text-align: center
+    }
 }
 
+//klanten page
+.klant-home {
+    @include flexcenter(); 
+    flex-direction: column;
+    &-boeken, &-beheer, &-service {
+        @include flexcenter(); 
+        position: relative;
+        height: 45vh;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);
+        & img {
+            position: absolute;
+            z-index: -100;
+            width: 100%;
+        }
+        &-box{
+            @include flexcenter();
+            flex-direction: column;
+            width: 30%;
+            color: white;
+            font-size: 1.1em;
+            gap: 1rem;
+            &-buttons {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 4% 10%;
+                }
+                &-blue {
+                    background: #91a3b7;
+                }
+                &-yellow {
+                    background: #FFC53A;
+                }
+                &-green {
+                    background: $green;
+                }
+            }
+        }
+    }
+}
 
 // footer
 footer {
@@ -609,7 +659,7 @@ footer {
         font-size: 0.9em;
         font-weight: bold;
     }
-    .accounts_table {
+    .admin_table {
         @include flexcenter();
         width: 80%;
         padding: 15px;

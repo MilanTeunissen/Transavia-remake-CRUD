@@ -28,17 +28,28 @@
                     <?php include("../../includes/accounts_table.php") ?>
                 </table>
             </div>
+            <h2>Berichten</h2>
+            <div class="admin_table">
+              <table>
+                    <tr>
+                        <th>Naam</th>
+                        <th>Email</th>
+                        <th>bericht</th>
+                    </tr>
+                    <?php include("../../includes/message_table.php") ?>
+                </table>
+            </div>
             <h2>Vluchten</h2>
             <div class="admin_table">
               <table>
                     <tr>
-                        <th>Voornaam</th>
-                        <th>Achternaam</th>
-                        <th>Wachtwoord</th>
-                        <th>Geboorten datum</th>
-                        <th>email</th>
+                        <th>Vluchthaven</th>
+                        <th>bestemming</th>
+                        <th>datum</th>
+                        <th>personen</th>
+                        <th>beschrijving</th>
                     </tr>
-                    <?php include("../../includes/accounts_table.php") ?>
+                    <?php include("../../includes/vluchten_table.php") ?>
                 </table>
             </div>
             <h2>Reviews</h2>
