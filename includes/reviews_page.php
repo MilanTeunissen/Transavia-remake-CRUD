@@ -22,35 +22,35 @@ $results = $stmt->fetchAll();
                     <div class="star-rating-stars">
                         <?php 
                         if($result['rating'] === 1){
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
                         } elseif ($result['rating'] === 2){
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
                         } elseif ($result['rating'] === 3){
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
                         } elseif ($result['rating'] === 4){
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9734;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='empty-star'>&#9734;</p>";
                         } elseif ($result['rating'] === 5){
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
-                            echo  "<p class='star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
+                            echo  "<p class='full-star'>&#9733;</p>";
                         }  
 
                         ?>
