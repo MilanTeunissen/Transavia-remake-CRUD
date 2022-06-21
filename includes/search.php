@@ -20,8 +20,8 @@ if (isset($_GET['searchInput'])) {
     if ($vluchtenSearch == true) {
         foreach ($results as $result){
             echo   "<div class='vakantie_naam'>";
-            echo   "<h1 class='vakantie_vluchthaven'>" . $result['vluchthaven'] ."</h1>";
-            echo   "<p class='vakantie_bestemming'>" . $result['bestemming'] ."</p>";
+            echo   "<h1 class='vakantie_bestemming'>" . $result['bestemming'] ."</h1>";
+            echo   "<p class='vakantie_vluchthaven'>" . $result['vluchthaven'] ."</p>";
             echo   "<p class='vakantie_datum'>" . $result['datum'] ."</p>";
             echo   "<p class='vakantie_personen'>" . $result['personen'] ."</p>";
             echo   "<button class='vakantie_boeken'>Boeken</button>";
