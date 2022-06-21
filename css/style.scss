@@ -647,9 +647,10 @@ footer {
     @include flexcenter();
     flex-direction: column;
     background: #f3f0ed;
-    color: $green;
+    color: black;
     border-radius: 2vh;
     margin: 10px;
+    font-size: 1.2rem;
     button {
         padding: 5% 10%;
         border-radius: 1.5rem;
