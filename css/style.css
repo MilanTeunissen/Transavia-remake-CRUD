@@ -543,7 +543,6 @@ header .klant-home-header h1 {
 }
 
 .star-rating {
-.review-page .review .user-rating .star-rating {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -554,10 +553,6 @@ header .klant-home-header h1 {
   display: flex;
 }
 .star-rating-stars .star {
-.review-page .review .user-rating .star-rating-stars {
-  display: flex;
-}
-.review-page .review .user-rating .star-rating-stars .star {
   height: auto;
   font-size: 2em;
   background: none;
@@ -569,27 +564,6 @@ header .klant-home-header h1 {
 }
 .star-rating .current-rating {
   margin-top: 5%;
-}
-.review-page .review .user-rating .star-rating-stars .star:hover {
-  cursor: pointer;
-}
-.review-page .review .user-rating .star-rating .current-rating {
-  margin-top: 5%;
-}
-.review-page .review .user-rating textarea {
-  width: 100%;
-  padding: 2%;
-  border-color: #91a3b7;
-  resize: none;
-}
-.review-page .review .user-rating .submit {
-  padding: 5% 10%;
-  border-radius: 1.5rem;
-  border: 0px solid;
-  background: #FFC53A;
-  color: #111111;
-  font-size: 0.9em;
-  font-weight: bold;
 }
 
 .reviews {
