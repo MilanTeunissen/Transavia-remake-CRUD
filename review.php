@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>IcT Air</title>
 </head>
-<body id="home"">
+<body id="home">
     <?php
         require_once("includes/navigation.php");
     ?>

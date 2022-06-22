@@ -11,9 +11,8 @@
         <div class="nav_items primary">
             <ul>
                 <li><a href="index.php"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="includes/login.php">Plan en boek</a></li>
-                <li><a href="includes/login.php">Beheer je boeking</a></li>
-                <li><a href="includes/login.php">Service</a></li>
+                <li><a href="boekingen.php">Boekingen</a></li>
+                <li><a href="">Service</a></li>
             </ul>
         </div>
         <div class="nav_items secondary">
