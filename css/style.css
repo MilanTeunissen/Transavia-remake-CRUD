@@ -684,6 +684,7 @@ footer a i {
   color: black;
   border-radius: 2vh;
   margin: 10px;
+  font-size: 1.2rem;
 }
 .admin_panel button {
   padding: 5% 10%;
