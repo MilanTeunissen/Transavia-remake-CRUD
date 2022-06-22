@@ -13,7 +13,7 @@
     ?>
     <header>
         <div class="klant-home-header">
-            <h1>Welkom Username</h1>
+            <h1>Welkom <?php echo $result['naam']; ?></h1>
             <p>Nu je bent ingelogt kunt u gelijk aan de slag om een heerlijke vakantie te boeken</p>
         </div>
     </header>
