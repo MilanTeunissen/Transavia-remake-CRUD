@@ -12,7 +12,7 @@
         require_once("includes/navigation.php");
     ?>
     <main  class="review-page">
-        <h2></h2>
+        <h1>Laat een review achter!</h1>
         <div class="review">
             <div class="user-rating">
                 <div class="user-review">
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="reviews">
-            <h1>Lees hier reviews van onze klanten!</h1>
+            <h2>Lees hier reviews van onze klanten!</h2>
             <?php include("includes/reviews_page.php") ?>
         </div>
     </main>
