@@ -474,7 +474,9 @@ header {
 
 //review
 .review-page {
+    text-align: center;
     background: #eeeded;
+    padding-top: 3%;
     .review {
         @include flexcenter();
         padding: 5% 0;
@@ -501,6 +503,7 @@ header {
                     }
                 }
                 p {
+                    text-align: left;
                     font-size: 0.9em;
                     margin: auto 0;
                 }
@@ -553,7 +556,7 @@ header {
 }
 
 .reviews {
-    padding: 5% 0;
+    padding: 2% 0;
     h1 {
         text-align: center
     }

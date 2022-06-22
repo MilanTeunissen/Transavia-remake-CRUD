@@ -501,7 +501,9 @@ header .klant-home-header h1 {
 }
 
 .review-page {
+  text-align: center;
   background: #eeeded;
+  padding-top: 3%;
 }
 .review-page .review {
   display: flex;
@@ -538,6 +540,7 @@ header .klant-home-header h1 {
   width: 6vh;
 }
 .review-page .review .user-rating .user-review p {
+  text-align: left;
   font-size: 0.9em;
   margin: auto 0;
 }
@@ -589,7 +592,7 @@ header .klant-home-header h1 {
 }
 
 .reviews {
-  padding: 5% 0;
+  padding: 2% 0;
 }
 .reviews h1 {
   text-align: center;
