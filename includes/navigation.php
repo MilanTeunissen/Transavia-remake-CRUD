@@ -11,8 +11,8 @@
         <div class="nav_items primary">
             <ul>
                 <li><a href="index.php"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="boekingen.php">Boekingen</a></li>
-                <li><a href="">Service</a></li>
+                <li><a href="includes/login.php">Boekingen</a></li>
+                <li><a href="contact.php">Service</a></li>
             </ul>
         </div>
         <div class="nav_items secondary">
