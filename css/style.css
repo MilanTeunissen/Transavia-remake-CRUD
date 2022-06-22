@@ -526,6 +526,23 @@ header .klant-home-header h1 {
   font-size: 0.9em;
   margin: auto 0;
 }
+.review-page .review .user-rating textarea {
+  width: 100%;
+  padding: 2%;
+  border-color: #91a3b7;
+  resize: none;
+}
+.review-page .review .user-rating .submit {
+  padding: 5% 10%;
+  border-radius: 1.5rem;
+  border: 0px solid;
+  background: #FFC53A;
+  color: #111111;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.star-rating {
 .review-page .review .user-rating .star-rating {
   display: flex;
   justify-content: center;
@@ -533,6 +550,10 @@ header .klant-home-header h1 {
   width: auto;
   gap: 1rem;
 }
+.star-rating-stars {
+  display: flex;
+}
+.star-rating-stars .star {
 .review-page .review .user-rating .star-rating-stars {
   display: flex;
 }
@@ -542,6 +563,12 @@ header .klant-home-header h1 {
   background: none;
   border: none;
   color: #FFC53A;
+}
+.star-rating-stars .star:hover {
+  cursor: pointer;
+}
+.star-rating .current-rating {
+  margin-top: 5%;
 }
 .review-page .review .user-rating .star-rating-stars .star:hover {
   cursor: pointer;
@@ -621,6 +648,57 @@ header .klant-home-header h1 {
   background: #FFC53A;
 }
 .klant-home-boeken-box-buttons-green, .klant-home-beheer-box-buttons-green, .klant-home-service-box-buttons-green {
+  background: #00d66c;
+}
+
+.bestemmingen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: #f3f0ed;
+  padding: 3% 0;
+  gap: 3rem;
+}
+.bestemmingen-container-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 2%;
+  border-radius: 2vh;
+  background-color: white;
+  gap: 2rem;
+}
+.bestemmingen-container-layout-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 40vw;
+  overflow: hidden;
+}
+.bestemmingen-container-layout-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bestemmingen-container-layout-items-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 2rem;
+}
+.bestemmingen-container-layout-items-book p {
+  font-size: 1.2em;
+}
+.bestemmingen-container-layout-items-book a {
+  padding: 3%;
+  border-radius: 2vh;
+  text-decoration: none;
+  color: #111111;
   background: #00d66c;
 }
 
