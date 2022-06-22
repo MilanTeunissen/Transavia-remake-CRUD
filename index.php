@@ -88,87 +88,115 @@
             <img loading="lazy" src="img/order-section.png" alt="">
         </div>
         <div class="destinations">
-            <div class="destinations-list left">
-                <ul>
-                    <li>
-                        <a href=""> 
-                            <img loading="lazy" src="img/destination-alicante.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                            <h4>Alicante</h4>
-                            <p></p>
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <img loading="lazy" src="img/destination-athene.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                            <h4>Athene</h4>
-                            <p></p>
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <img loading="lazy" src="img/destination-lissabon.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                            <h4>Lissabon</h4>
-                            <p></p>
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <img loading="lazy" src="img/destination-milaan.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                            <h4>Milaan</h4>
-                            <p></p>
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <img loading="lazy" src="img/destination-faro.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                            <h4>Faro</h4>
-                            <p></p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="destinations-list right">
-                <h3></h3>
-                <ul>
-                    <li>
-                        <a href="">
-                            <h4>Malaga</h4>
-                            <img loading="lazy" src="img/destination-malaga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <h4>Krakou</h4>
-                            <img loading="lazy" src="img/destination-krakou.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <h4>Riga</h4>
-                            <img loading="lazy" src="img/destination-riga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <h4>Sardinië</h4>
-                            <img loading="lazy" src="img/destination-sardinië.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="">
-                            <h4>Nice</h4>
-                            <img loading="lazy" src="img/destination-nice.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
-                        </a>
-                    </li>
-                </ul>
+            <h2>Onze mooiste rijzen!</h2>
+            <div class="destinations-lists">
+                <div class="destinations-list left">
+                    <ul>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <img loading="lazy" src="img/destination-alicante.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                                <div class="destinations-list-text">
+                                    <h4>Alicante</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <img loading="lazy" src="img/destination-athene.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                                <div class="destinations-list-text">
+                                    <h4>Athene</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <img loading="lazy" src="img/destination-lissabon.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                                <div class="destinations-list-text">
+                                    <h4>Lissabon</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <img loading="lazy" src="img/destination-milaan.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                                <div class="destinations-list-text">
+                                    <h4>Milaan</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <img loading="lazy" src="img/destination-faro.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                                    <div class="destinations-list-text">
+                                    <h4>Faro</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="destinations-list right">
+                    <h3></h3>
+                    <ul>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <div class="destinations-list-text">
+                                    <h4>Malaga</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                                <img loading="lazy" src="img/destination-malaga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <div class="destinations-list-text">
+                                    <h4>Krakou</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                                <img loading="lazy" src="img/destination-krakou.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <div class="destinations-list-text">
+                                    <h4>Riga</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                                <img loading="lazy" src="img/destination-riga.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <div class="destinations-list-text">
+                                    <h4>Sardinië</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                                <img loading="lazy" src="img/destination-sardinië.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="bestemmingen.php"> 
+                                <div class="destinations-list-text">
+                                    <h4>Nice</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit aliquam quidem nihil, eos neque enim esse fugit optio qui, porro nobis corrupti dignissimos vel cupiditate in non praesentium alias?</p>
+                                </div>
+                                <img loading="lazy" src="img/destination-nice.png" style="width: 300px; height: 200px;" Loading="lazy" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>  
     </main>

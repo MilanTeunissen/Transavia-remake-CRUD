@@ -39,19 +39,20 @@
                     <textarea class="bericht" name="bericht" placeholder="Type hier uw bericht"></textarea>
                     <button class="submit" name="berichtSubmit" type="submit">Verstuur</button>
                 </form>
+                <hr>
                 <div class="contact-container-form-extra">
-                <h3>Onze gegevens</h3>
-                <ul>
-                    <li>
-                        <p>IcTAir@gmail.com</p>
-                    </li>
-                    <li>
-                        <p>+024 69682725</p>
-                    </li>                    
-                    <li>
-                        <p>Technovium Nijmegen</p>
-                    </li>
-                </ul>
+                    <h3>Onze gegevens</h3>
+                    <ul>
+                        <li>
+                            <p>IcTAir@gmail.com</p>
+                        </li>
+                        <li>
+                            <p>+024 69682725</p>
+                        </li>                    
+                        <li>
+                            <p>Technovium Nijmegen</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
