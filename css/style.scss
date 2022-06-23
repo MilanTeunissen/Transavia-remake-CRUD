@@ -562,6 +562,50 @@ header {
     }
 }
 
+//bestemmingen page
+.bestemmingen-container {
+    @include flexcenter();
+    flex-direction: column;
+    width: 100%;
+    background: #f3f0ed;
+    padding: 3% 0;
+    gap: 3rem;
+    &-layout {
+        @include flexcenter();
+        width: 80%;
+        padding: 2%;
+        border-radius: 2vh;
+        background-color: white;
+        gap: 2rem;
+        &-img {
+        @include flexcenter();
+            height: 30vh;
+            width: 40vw;
+            overflow: hidden;
+        }
+        &-items {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            &-book {
+                @include flexcenter();
+                font-weight: bold;
+                gap: 2rem;
+                p {
+                    font-size: 1.2em;
+                }
+                a {
+                    padding: 3%;
+                    border-radius: 2vh;
+                    text-decoration: none;
+                    color: #111111;
+                    background: $green;
+                }
+            }
+        }
+    }
+}
+
 //klanten page
 .klant-home {
     @include flexcenter(); 
@@ -609,48 +653,10 @@ header {
     }
 }
 
-//bestemmingen page
-.bestemmingen-container {
+//boekingen page 
+.boekingen-container {
     @include flexcenter();
-    flex-direction: column;
-    width: 100%;
-    background: #f3f0ed;
-    padding: 3% 0;
-    gap: 3rem;
-    &-layout {
-        @include flexcenter();
-        width: 80%;
-        padding: 2%;
-        border-radius: 2vh;
-        background-color: white;
-        gap: 2rem;
-        &-img {
-        @include flexcenter();
-            height: 30vh;
-            width: 40vw;
-            overflow: hidden;
-        }
-        &-items {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            &-book {
-                @include flexcenter();
-                font-weight: bold;
-                gap: 2rem;
-                p {
-                    font-size: 1.2em;
-                }
-                a {
-                    padding: 3%;
-                    border-radius: 2vh;
-                    text-decoration: none;
-                    color: #111111;
-                    background: $green;
-                }
-            }
-        }
-    }
+    padding: 5% 0;
 }
 
 // footer
@@ -705,11 +711,12 @@ footer {
 .admin_panel {
     @include flexcenter();
     flex-direction: column;
+    width: 100%;
     background: #f3f0ed;
     color: black;
-    border-radius: 2vh;
-    margin: 10px;
     font-size: 1.2rem;
+    gap: 2rem;
+    padding: 2% 0;
     button {
         padding: 5% 10%;
         border-radius: 1.5rem;
@@ -721,18 +728,24 @@ footer {
     }
     .admin_table {
         @include flexcenter();
-        width: 80%;
-        padding: 15px;
+        width: 100%;
         table {
             border: 1px solid;
-            width: 60%;
+            width: 80%;
             tr {
                 border: 1px solid;
                 display: flex;
                 gap: 1rem;
                 td, th {  
+                    @include flexcenter();
                     width: 20%;
-                    text-align: center;
+                    padding: 2% 0;
+                }
+                td{
+                    font-size: 0.9em;
+                }
+                .messages {
+                    width: 33%;
                 }
             }
         }
