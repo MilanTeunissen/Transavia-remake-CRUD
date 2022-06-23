@@ -12,8 +12,8 @@
         require_once("../../includes/klant-navigation.php");
     ?>
     <main>
-        <div class="boekingen-container">
-            
+        <div class="boekingen">
+            <?php include("../../includes/boekingen_read.php")?>
         </div>
     </main>
     <?php
