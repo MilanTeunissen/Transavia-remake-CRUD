@@ -711,11 +711,12 @@ footer {
 .admin_panel {
     @include flexcenter();
     flex-direction: column;
+    width: 100%;
     background: #f3f0ed;
     color: black;
-    border-radius: 2vh;
-    margin: 10px;
     font-size: 1.2rem;
+    gap: 2rem;
+    padding: 2% 0;
     button {
         padding: 5% 10%;
         border-radius: 1.5rem;
@@ -727,18 +728,24 @@ footer {
     }
     .admin_table {
         @include flexcenter();
-        width: 80%;
-        padding: 15px;
+        width: 100%;
         table {
             border: 1px solid;
-            width: 60%;
+            width: 80%;
             tr {
                 border: 1px solid;
                 display: flex;
                 gap: 1rem;
                 td, th {  
+                    @include flexcenter();
                     width: 20%;
-                    text-align: center;
+                    padding: 2% 0;
+                }
+                td{
+                    font-size: 0.9em;
+                }
+                .messages {
+                    width: 33%;
                 }
             }
         }
