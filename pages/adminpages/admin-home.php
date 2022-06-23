@@ -32,9 +32,9 @@
             <div class="admin_table">
               <table>
                     <tr>
-                        <th>Naam</th>
-                        <th>Email</th>
-                        <th>bericht</th>
+                        <th class="messages">Naam</th>
+                        <th class="messages">Email</th>
+                        <th class="messages">bericht</th>
                     </tr>
                     <?php include("../../includes/message_table.php") ?>
                 </table>
