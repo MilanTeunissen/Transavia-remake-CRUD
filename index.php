@@ -14,7 +14,7 @@
     <header> 
         <div class="carousel">
             <i class="fa-solid fa-circle-left" id="prevBtn"></i>
-            <form class="home_form" action="bestemmingen.php" method="GET">
+            <form class="home_form" action="bestemmingen-search.php" method="GET">
                 <h1>Waar wil je heen?</h1>
                 <div class="elem-group">
                     <label for="name">Vanaf</label>

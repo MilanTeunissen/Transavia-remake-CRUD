@@ -12,7 +12,9 @@
         require_once("../../includes/klant-navigation.php");
     ?>
     <main>
-
+        <div class="boekingen">
+            <?php include("../../includes/boekingen_read.php")?>
+        </div>
     </main>
     <?php
         require_once("../../includes/klant-footer.php");
