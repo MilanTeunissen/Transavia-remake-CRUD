@@ -1,8 +1,10 @@
 <?php 
 require_once("../../includes/connector.php");
+session_start();
 $dataTable = "crud-ict";
-$sql = "select vluchten.* FROM boekingen JOIN accounts ON accounts.ID = boekingen.accountID JOIN vluchten ON vluchten.ID = boekingen.vluchtID";
+$sql = "SELECT vluchten.* FROM boekingen JOIN accounts ON accounts.ID = boekingen.accountID JOIN vluchten ON vluchten.ID = boekingen.vluchtID WHERE boekingen.accountID = :loggedInUserID";
 $stmt = $connect->prepare($sql);
+$stmt->bindParam(':loggedInUserID', $_SESSION['ID']);
 $stmt->execute();
 $result = $stmt->fetchAll();
 
