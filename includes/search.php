@@ -23,8 +23,6 @@ if (isset($_GET['searchInput'])) {
     $stmt->bindParam(":input4", $likeInput4);
     }
 
-    echo "hallo";
-
     $stmt->execute();   
     $results = $stmt->fetchAll();
 
