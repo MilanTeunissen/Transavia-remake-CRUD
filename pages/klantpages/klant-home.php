@@ -1,3 +1,6 @@
+<?php 
+    require_once("../../includes/connector.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,29 +26,19 @@
                 <img src="../../img/boeken.png" alt="">
                 <div class="klant-home-boeken-box">
                     <h2>Boeken</h2>
-                    <p>blablabla texttexttext </p>
+                    <p>Wilt u een reis boeken?</p>
                     <div class="klant-home-boeken-box-buttons">
-                        <a class="klant-home-boeken-box-buttons-blue" href="">Naar boeken</a>
-                    </div>
-                </div>
-            </div>
-            <div class="klant-home-beheer">
-                <img src="../../img/k.png" alt="">
-                <div class="klant-home-beheer-box">
-                    <h2>Beheer</h2>
-                    <p>blablabla texttexttext </p>
-                    <div class="klant-home-beheer-box-buttons">
-                        <a class="klant-home-beheer-box-buttons-yellow" href="">Naar beheer</a>
+                        <a class="klant-home-boeken-box-buttons-blue" href="boekingen.php">Naar boeken</a>
                     </div>
                 </div>
             </div>
             <div class="klant-home-service">
                 <img src="../../img/service.png" alt="">
                 <div class="klant-home-service-box">
-                    <h2>Service</h2>
-                    <p>blablabla texttexttext </p>
+                    <h2>Contact</h2>
+                    <p>Heeft u vragen?</p>
                     <div class="klant-home-service-box-buttons">
-                        <a class="klant-home-service-box-buttons-green" href="">Naar Service</a>
+                        <a class="klant-home-service-box-buttons-green" href="../../contact.php">Naar Service</a>
                     </div>
                 </div>
             </div>

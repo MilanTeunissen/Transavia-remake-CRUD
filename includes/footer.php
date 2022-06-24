@@ -13,18 +13,17 @@
                 <h3>Andere pagina's</h3>
                 <ul>
                     <li>
-                        <a href="">Over ons</a>
+                        <a href="bestemmingen.php">Bestemming</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="overons.php">Over ons</a>
                     </li>
                     <li>
-                        <a href="">Werken bij IcT Air</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                     <li>
-                        <a href="">Nieuws</a>
+                        <a href="review.php">Reviews</a>
                     </li>
-
                 </ul>
             </div>
             <div class="footer-right">

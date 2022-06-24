@@ -563,7 +563,7 @@ header {
 }
 
 //bestemmingen page
-.bestemmingen-container {
+.bestemmingen-container, .boeken-container {
     @include flexcenter();
     flex-direction: column;
     width: 100%;
@@ -600,6 +600,9 @@ header {
                     text-decoration: none;
                     color: #111111;
                     background: $green;
+                }
+                .boeken {
+                    background: red;
                 }
             }
         }
@@ -656,7 +659,9 @@ header {
 //boekingen page 
 .boekingen-container {
     @include flexcenter();
+    flex-direction: column;
     padding: 5% 0;
+    gap: 5rem;
 }
 
 // footer
