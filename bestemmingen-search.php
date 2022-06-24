@@ -65,7 +65,7 @@
         </form>
     <main>
         <div class="vakanties">
-            <?php include("includes/bestemming_read.php")?>
+            <?php include("includes/search.php")?>
         </div>
     </main>
     

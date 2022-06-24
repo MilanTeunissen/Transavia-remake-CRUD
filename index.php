@@ -30,7 +30,7 @@
                 </div>
                 <div class="elem-group">
                     <label for="adult">Wie gaan er mee?</label>
-                    <input type="number" id="adult" name="personen" placeholder="1 Volwassene" min="1" max="20" required>
+                    <input type="number" id="adult" name="personen" placeholder="1 Volwassene" min="1" max="20">
                 </div>
                 <button type="submit" name="searchInput">Zoeken</button>
             </form>
