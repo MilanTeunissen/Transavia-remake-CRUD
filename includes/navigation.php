@@ -1,5 +1,5 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) { ?>
+if (isset($_SESSION['ID'])) { ?>
         <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -32,7 +32,7 @@ if (session_status() === PHP_SESSION_NONE) { ?>
     </body>
     </html>
 <?php    
-} elseif (session_status() === PHP_SESSION_ACTIVE){ ?>
+} else { ?>
     <!DOCTYPE html>
 <html lang="en">
 <head>
