@@ -34,7 +34,7 @@
                     <p><?php echo $result['beschrijven']; ?></p>
                     <div class='bestemmingen-container-layout-items-book'>
                         <p>€ <?php echo $result['prijs']; ?></p>
-                        <a href=''>boeken</a>
+                        <a href='includes/reis_boeken.php'>boeken</a>
                     </div>
                 </div>
             </div>

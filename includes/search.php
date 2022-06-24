@@ -1,15 +1,28 @@
 <?php
 if (isset($_GET['searchInput'])) {
     require_once("connector.php");
-    $likeInput = '%'.$_GET['searchInput'].'%';
+    $likeInput = '%'.$_GET['vluchthaven'].'%';
+    $likeInput2 = '%'.$_GET['bestemming'].'%';
+    $likeInput3 = '%'.$_GET['datum'].'%';
+    $likeInput4 = '%'.$_GET['personen'].'%';
 
-    $sql = "SELECT * FROM vluchten WHERE vluchthaven LIKE :input OR bestemming LIKE :input2 OR datum LIKE :input3 OR personen LIKE :input4";
+    $sql = "SELECT * FROM vluchten WHERE vluchthaven LIKE :input AND bestemming LIKE :input2 AND datum LIKE :input3 AND personen LIKE :input4";
     $roundedAverage = "SELECT AVG(rating) FROM reviews WHERE bestemming = :bestemming";
+
+  
     $stmt = $connect->prepare($sql);
     $stmt->bindParam(":input", $likeInput);
-    $stmt->bindParam(":input2", $likeInput);
-    $stmt->bindParam(":input3", $likeInput);
-    $stmt->bindParam(":input4", $likeInput);
+    $stmt->bindParam(":input2", $likeInput2);
+    if(isset($_GET['datum'] || !empty($_GET['datum'])))
+    {
+    $stmt->bindParam(":input3", $likeInput3);
+    }
+
+    if(isset($_GET['personen'] || !empty($_GET['personen'])))
+    {
+    $stmt->bindParam(":input4", $likeInput4);
+    }
+
     $stmt->execute();   
     $results = $stmt->fetchAll();
 
