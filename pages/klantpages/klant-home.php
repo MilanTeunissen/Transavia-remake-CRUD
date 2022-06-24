@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        require_once("../../includes/klant-navigation.php");
+        require_once("../../includes/navigation.php");
     ?>
     <header>
         <div class="klant-home-header">
