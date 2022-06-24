@@ -13,7 +13,7 @@
         $resultAVG = $stmt->fetch();
         $average = round($resultAVG['rating']);
 ?>
-            <div class='bestemmingen-container'>
+        <div class='bestemmingen-container'>
             <div class='bestemmingen-container-layout'>
                 <div class='bestemmingen-container-layout-img'>
                     <img src='img/destination-malaga.png'>
@@ -38,6 +38,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 <?php 
     }
 ?>

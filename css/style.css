@@ -598,7 +598,7 @@ header .klant-home-header h1 {
   text-align: center;
 }
 
-.bestemmingen-container {
+.bestemmingen-container, .boeken-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -608,7 +608,7 @@ header .klant-home-header h1 {
   padding: 3% 0;
   gap: 3rem;
 }
-.bestemmingen-container-layout {
+.bestemmingen-container-layout, .boeken-container-layout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -618,7 +618,7 @@ header .klant-home-header h1 {
   background-color: white;
   gap: 2rem;
 }
-.bestemmingen-container-layout-img {
+.bestemmingen-container-layout-img, .boeken-container-layout-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -626,27 +626,30 @@ header .klant-home-header h1 {
   width: 40vw;
   overflow: hidden;
 }
-.bestemmingen-container-layout-items {
+.bestemmingen-container-layout-items, .boeken-container-layout-items {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.bestemmingen-container-layout-items-book {
+.bestemmingen-container-layout-items-book, .boeken-container-layout-items-book {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   gap: 2rem;
 }
-.bestemmingen-container-layout-items-book p {
+.bestemmingen-container-layout-items-book p, .boeken-container-layout-items-book p {
   font-size: 1.2em;
 }
-.bestemmingen-container-layout-items-book a {
+.bestemmingen-container-layout-items-book a, .boeken-container-layout-items-book a {
   padding: 3%;
   border-radius: 2vh;
   text-decoration: none;
   color: #111111;
   background: #00d66c;
+}
+.bestemmingen-container-layout-items-book .boeken, .boeken-container-layout-items-book .boeken {
+  background: red;
 }
 
 .klant-home {
@@ -705,7 +708,9 @@ header .klant-home-header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 5% 0;
+  gap: 5rem;
 }
 
 footer {
