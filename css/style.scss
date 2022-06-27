@@ -1,4 +1,4 @@
-@import "./variables";
+$green: #00d66c;
 
 @mixin flexcenter {
     display: flex;
@@ -768,6 +768,16 @@ footer {
                     @include flexcenter();
                     width: 20%;
                     padding: 2% 0;
+                    a {
+                        padding: 5% 10%;
+                        border-radius: 1.5rem;
+                        border: 0px solid;
+                        background: #FFC53A;
+                        color: #111111;
+                        font-size: 0.9em;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
                 }
                 td{
                     font-size: 0.9em;
