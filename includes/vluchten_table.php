@@ -14,5 +14,6 @@ $result = $stmt->fetchAll();
         echo   "<td>" . $result['datum'] ."</td>";
         echo   "<td>" . $result['personen'] ."</td>";
         echo   "<td>" . $result['beschrijven'] ."</td>";
+        echo   "<td>" . $result['beschrijven'] ."</td>";
         echo   "</tr>"; 
     }
