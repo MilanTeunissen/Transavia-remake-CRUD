@@ -1,7 +1,14 @@
 <?php 
-require_once("../includes/connector.php");
-$dataTable = "crud-ict";
-$sql = "INSERT INTO vluchten.* FROM boekingen JOIN accounts ON accounts.ID = boekingen.accountID JOIN vluchten ON vluchten.ID = boekingen.vluchtID WHERE boekingen.accountID = :loggedInUserID";
-$stmt = $connect->prepare($sql);
-$stmt->bindParam(':loggedInUserID', $_SESSION['ID']);
-$stmt->execute();
+session_start();
+    if (isset($_GET['name'])) {
+        require_once("../includes/connector.php");
+        $dataTable = "crud-ict";
+        $sql = "INSERT INTO boekingen (accountID, vluchtID) VALUES (:accountID, :vluchtID)";
+        $stmt = $connect->prepare($sql);
+        $stmt->bindParam(':accountID',$_SESSION['ID']);
+        $stmt->bindParam(':vluchtID', $_GET['ID']);
+        $stmt->execute();
+    
+        header('Location: ../boekingen.php');
+    
+    }

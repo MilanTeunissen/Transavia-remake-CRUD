@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['registrerenSubmit'])) {
 
-    require_once("../includes/connector.php");
+    require_once("connector.php");
 
     $sql = "INSERT INTO accounts (naam, achternaam, wachtwoord, datum, email) VALUES (:naam, :achternaam, :wachtwoord, :datum, :email)";
 
@@ -15,7 +15,7 @@ if (isset($_POST['registrerenSubmit'])) {
     $stmt->bindParam(':email', $_POST['email']);
     $stmt->execute();
 
-    header('Location: ../pages/login-page.php');
+    header('Location: ./login-page.php');
 
 } else {
     header('Location: ../register-page.php');

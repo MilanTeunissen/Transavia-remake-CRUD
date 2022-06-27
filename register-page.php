@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>registeren</title>
@@ -13,7 +13,7 @@
       <img src="../img/" alt="">
     <main>
         <div class="login">
-            <form class="login_form" action="../includes/register.php" method="POST">
+            <form class="login_form" action="includes/register.php" method="POST">
                 <h1>Account aanmaken</h1>
                 <div class="elem-group">
                     <label for="name">Uw voor naam:</label>
@@ -40,7 +40,7 @@
                         <input type="checkbox" required><a href="https://policies.google.com/privacy?hl=en-US">privacy verklaring en</a><a href="https://policies.google.com/terms?hl=en-US">algemene voorwaarden</a>
                     </div>  
                     <a href="login-page.php">Heb je al een account?</a>
-                    <a href="../index.php">Terug</a>
+                    <a href="index.php">Terug</a>
                 </div>
                 <button type="submit" name="registrerenSubmit">Account aanmaken!</button>
             </form>

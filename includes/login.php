@@ -15,11 +15,11 @@
 
             if($result['admin'] === 1) {
                 $_SESSION['admin'] = true;
-                header('Location: ../pages/adminpages/admin-home.php');
+                header('Location: ../admin-home.php');
 
             } else {
                 $_SESSION['admin'] = false;
-                header('Location: ../pages/klantpages/klant-home.php');
+                header('Location: ../klant-home.php');
 
             }
         } else {
