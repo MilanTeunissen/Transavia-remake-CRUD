@@ -58,8 +58,7 @@ if (isset($_SESSION['ID'])) { ?>
                 <li><a>|</a></li>
                 <li><a href="login-page.php">Inloggen</a></li>
                 <li><a href="register-page.php">Aanmelden</a></li>
-
-
+                <li><a href="includes/logout.php">Uitloggen</a></li>
             </ul>
         </div>
     </nav>
