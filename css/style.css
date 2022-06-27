@@ -531,6 +531,7 @@ header .klant-home-header h1 {
 }
 .review-page .review .user-rating .user-review {
   display: flex;
+  width: 100%;
   gap: 3rem;
 }
 .review-page .review .user-rating .user-review .user-img {
@@ -550,6 +551,23 @@ header .klant-home-header h1 {
   text-align: left;
   font-size: 0.9em;
   margin: auto 0;
+}
+.review-page .review .user-rating .user-review .review-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  text-align: left;
+}
+.review-page .review .user-rating .user-review .review-form .review-form-1 {
+  width: 100%;
+}
+.review-page .review .user-rating .user-review .review-form .review-form-1 input {
+  width: 100%;
+  padding: 2%;
+  border-color: #91a3b7;
 }
 .review-page .review .user-rating textarea {
   width: 100%;

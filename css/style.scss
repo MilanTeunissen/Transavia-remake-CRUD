@@ -497,6 +497,7 @@ header {
             gap: 1rem;
             .user-review {
                 display: flex;
+                width: 100%;
                 gap: 3rem;
                 .user-img {
                     @include flexcenter();
@@ -513,6 +514,21 @@ header {
                     text-align: left;
                     font-size: 0.9em;
                     margin: auto 0;
+                }
+                .review-form {
+                    @include flexcenter();
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 1rem;
+                    text-align: left;
+                    .review-form-1 { 
+                        width: 100%;
+                        input {
+                        width: 100%;
+                        padding: 2%;
+                        border-color: #91a3b7;
+                    }
+                }
                 }
             }
             textarea { 

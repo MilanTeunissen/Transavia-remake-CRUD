@@ -52,7 +52,7 @@
             <div class="intersection-text">
                 <h3>Vlieg vanaf frankrijk met IcT Air</h3>
                 <p>Vanaf komende zomer vlieg je vanaf frankrijk met IcT Air naar de mooiste bestemmingen in Europa. We bieden onder andere vluchten aan naar Faro, Alicante en Ibiza. Boek nu je ticket en geniet van een heerlijke vakantie. Waar ga jij naartoe?</p>
-                <a href="">Boek nu</a>
+                <a href="pages/login-page.php">Boek nu</a>
             </div>
         </div>
         <div class="cards-home">
