@@ -6,23 +6,13 @@ if (isset($_GET['searchInput'])) {
     $likeInput3 = '%'.$_GET['datum'].'%';
     $likeInput4 = '%'.$_GET['personen'].'%';
 
-    $sql = "SELECT * FROM vluchten WHERE vluchthaven LIKE :input AND bestemming LIKE :input2 AND datum LIKE :input3 AND personen LIKE :input4";
+    $sql = "SELECT * FROM vluchten WHERE vluchthaven LIKE :input AND bestemming LIKE :input2";
     $roundedAverage = "SELECT AVG(rating) FROM reviews WHERE bestemming = :bestemming";
 
   
     $stmt = $connect->prepare($sql);
     $stmt->bindParam(":input", $likeInput);
     $stmt->bindParam(":input2", $likeInput2);
-    if(isset($_GET['datum'] || !empty($_GET['datum'])))
-    {
-    $stmt->bindParam(":input3", $likeInput3);
-    }
-
-    if(isset($_GET['personen'] || !empty($_GET['personen'])))
-    {
-    $stmt->bindParam(":input4", $likeInput4);
-    }
-
     $stmt->execute();   
     $results = $stmt->fetchAll();
 
