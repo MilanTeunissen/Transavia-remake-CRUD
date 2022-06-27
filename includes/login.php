@@ -1,6 +1,6 @@
 <?php 
  if (isset($_POST['inlogSubmit'])) {
-    require_once("../includes/connector.php");
+    require_once("connector.php");
 
     $sql = "SELECT ID, wachtwoord, admin FROM accounts WHERE naam = :naam";
     $stmt = $connect->prepare($sql);
