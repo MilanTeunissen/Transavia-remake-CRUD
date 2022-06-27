@@ -48,7 +48,7 @@
                         <th>datum</th>
                         <th>personen</th>
                         <th>beschrijving</th>
-                        <th><a href="" class="">Add</a></th>
+                        <th><a href="vlucht-toevoegen.php">Add</a></th>
                     </tr>
                     <?php include("includes/vluchten_table.php") ?>
                 </table>

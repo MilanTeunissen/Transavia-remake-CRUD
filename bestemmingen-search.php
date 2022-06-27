@@ -12,14 +12,8 @@
     <?php
         require_once("includes/navigation.php");
     ?>
-        <form class="home_form" action="bestemmingen.php" method="GET">
-            <h1>Waar wil je heen?</h1>
-            <div class="elem-group">
-                <label for="name">Vanaf</label>
-                <input type="text" id="name" name="vluchthaven" placeholder="Vertrekluchthaven" pattern=[A-Z\sa-z]{3,20} required>
-                <header> 
+    <header> 
         <div class="carousel">
-            <i class="fa-solid fa-circle-left" id="prevBtn"></i>
             <form class="home_form" action="bestemmingen-search.php" method="GET">
                 <h1>Waar wil je heen?</h1>
                 <div class="elem-group">
@@ -40,16 +34,6 @@
                 </div>
                 <button type="submit" name="searchInput">Zoeken</button>
             </form>
-            <i class="fa-solid fa-circle-right" id="nextBtn"></i>
-            <div class="carousel_slide">
-                <img src="img/carousel_vacation2.png" id="firstclone" alt="">
-                <img src="img/carousel_plane.png" alt="">
-                <img src="img/carousel_destenation.png" alt="">
-                <img src="img/carousel_airport.png" alt="">
-                <img src="img/carousel_vacation.png" alt="">
-                <img src="img/carousel_vacation2.png" alt="">
-                <img src="img/carousel_plane.png" id="lastclone" alt="">
-            </div>
         </div>
     </header>
     <main>
