@@ -19,10 +19,10 @@ if (isset($_SESSION['ID'])) { ?>
             </div>
             <div class="nav_items secondary">
                 <ul>
-                    <li><a href="bestemmingen.php">Bestemmingen</a></li>
-                    <li><a href="overons.php">Over ons</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="review.php">Reviews</a></li>
+                    <li><a href="../bestemmingen.php">Bestemmingen</a></li>
+                    <li><a href="../overons.php">Over ons</a></li>
+                    <li><a href="../contact.php">Contact</a></li>
+                    <li><a href="../review.php">Reviews</a></li>
                     <li><a>|</a></li>
                     <li><a href="../pages/login-page.php">Inloggen</a></li>
                     <li><a href="pages/register-page.php">Aanmelden</a></li>
@@ -57,7 +57,7 @@ if (isset($_SESSION['ID'])) { ?>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="review.php">Reviews</a></li>
                 <li><a>|</a></li>
-                <li><a href="includes/logout.php">Uitloggen</a></li>
+                <li><a href="../../includes/logout.php">Uitloggen</a></li>
             </ul>
         </div>
     </nav>
