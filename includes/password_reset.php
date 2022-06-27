@@ -12,5 +12,5 @@
         $stmt->execute();
     }
     
-    header('Location: ../pages/adminpages/admin-home.php');
+    header('Location: ../admin-home.php');
 

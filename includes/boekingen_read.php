@@ -23,7 +23,7 @@ $result = $stmt->fetchAll();
                         <div class='boeken-container-layout-items-book'>
                             <p>Vertrekt op: <?php echo $result['datum']; ?></p>
                             <p>€ <?php echo $result['prijs']; ?></p>
-                            <a class="boeken" href='Cancel'>Cancel</a>
+                            <a class="boeken" name='cancelBoeking' href='includes/cancel.php?ID=<?php echo $result['ID']?>&name=cancelBoeking'>Cancel</a>
                         </div>
                     </div>
                 </div>

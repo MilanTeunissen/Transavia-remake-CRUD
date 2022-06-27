@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['berichtSubmit'])) {
 
-    require_once("../includes/connector.php");
+    require_once("includes/connector.php");
 
     $sql = "INSERT INTO berichten (Naam, Email, bericht) VALUES (:Naam, :Email, :bericht)";
     $stmt = $connect->prepare($sql);

@@ -76,7 +76,7 @@ if (isset($_GET['searchInput'])) {
         }
     } else {
 
-        echo "We hebben helaas niks kunnen vinden op " . $_GET['searchInput'];
+        echo "We hebben helaas niks kunnen vinden";
     }
 } ?>
    
