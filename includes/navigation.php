@@ -24,8 +24,7 @@ if (isset($_SESSION['ID'])) { ?>
                     <li><a href="../contact.php">Contact</a></li>
                     <li><a href="../review.php">Reviews</a></li>
                     <li><a>|</a></li>
-                    <li><a href="../pages/login-page.php">Inloggen</a></li>
-                    <li><a href="pages/register-page.php">Aanmelden</a></li>
+                    <li><a href="includes/logout.php">Uitloggen</a></li>
                 </ul>
             </div>
         </nav>
@@ -57,7 +56,10 @@ if (isset($_SESSION['ID'])) { ?>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="review.php">Reviews</a></li>
                 <li><a>|</a></li>
-                <li><a href="../../includes/logout.php">Uitloggen</a></li>
+                <li><a href="pages/login-page.php">Inloggen</a></li>
+                <li><a href="pages/register-page.php">Aanmelden</a></li>
+                <li><a href="includes/logout.php">Uitloggen</a></li>
+
             </ul>
         </div>
     </nav>

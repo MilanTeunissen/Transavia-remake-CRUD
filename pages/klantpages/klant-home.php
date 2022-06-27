@@ -28,7 +28,7 @@
                     <h2>Boeken</h2>
                     <p>Wilt u een reis boeken?</p>
                     <div class="klant-home-boeken-box-buttons">
-                        <a class="klant-home-boeken-box-buttons-blue" href="boekingen.php">Naar boeken</a>
+                        <a class="klant-home-boeken-box-buttons-blue" href="../../boekingen.php">Naar boeken</a>
                     </div>
                 </div>
             </div>

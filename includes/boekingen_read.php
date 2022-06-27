@@ -1,5 +1,5 @@
 <?php 
-require_once("../../includes/connector.php");
+require_once("includes/connector.php");
 session_start();
 $dataTable = "crud-ict";
 $sql = "SELECT vluchten.* FROM boekingen JOIN accounts ON accounts.ID = boekingen.accountID JOIN vluchten ON vluchten.ID = boekingen.vluchtID WHERE boekingen.accountID = :loggedInUserID";
@@ -15,7 +15,7 @@ $result = $stmt->fetchAll();
             <div class='boeken-container'>
                 <div class='boeken-container-layout'>
                     <div class='boeken-container-layout-img'>
-                        <img src='../../img/destination-malaga.png'>
+                        <img src='img/destination-malaga.png'>
                     </div>
                     <div class='boeken-container-layout-items'>
                         <h3><?php echo $result['bestemming']; ?></h3>
