@@ -203,6 +203,13 @@ header .klant-home-header h1 {
   color: #111111;
   text-decoration: none;
 }
+.login_form .elem-group-end .algemenevoorwaarden {
+  display: flex;
+  gap: 1rem;
+}
+.login_form .elem-group-end .algemenevoorwaarden input {
+  margin: auto;
+}
 .login_form button {
   padding: 2% 4%;
   border-radius: 1.5rem;

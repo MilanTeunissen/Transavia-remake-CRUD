@@ -36,8 +36,11 @@
                     <input type="text" name="email" placeholder="AlbertusWilhelmus@gmail.com" required>
                 </div>
                 <div class="elem-group-end">
-                  <a href="login-page.php">Heb je al een account?</a>
-                  <a href="../index.php">Terug</a>
+                    <div class="algemenevoorwaarden">
+                        <input type="checkbox" required><a href="https://policies.google.com/privacy?hl=en-US">privacy verklaring en</a><a href="https://policies.google.com/terms?hl=en-US">algemene voorwaarden</a>
+                    </div>  
+                    <a href="login-page.php">Heb je al een account?</a>
+                    <a href="../index.php">Terug</a>
                 </div>
                 <button type="submit" name="registrerenSubmit">Account aanmaken!</button>
             </form>
