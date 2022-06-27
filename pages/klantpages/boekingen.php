@@ -10,7 +10,7 @@
 </head>
 <body id="home">
     <?php
-        require_once("../../includes/klant-navigation.php");
+        require_once("../../includes/navigation.php");
     ?>
     <main>
         <div class="boekingen">
