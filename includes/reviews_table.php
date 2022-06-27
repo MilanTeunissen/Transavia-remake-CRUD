@@ -1,5 +1,5 @@
 <?php 
-require_once("../../includes/connector.php");
+require_once("connector.php");
 $dataTable = "crud-ict";
 $sql = "select * FROM reviews";
 $stmt = $connect->prepare($sql);
@@ -19,8 +19,8 @@ $result = $stmt->fetchAll();
             echo   "<td>Geweigerd</td>";
         } else {
             echo   "<td>
-                    <a href='../../includes/validate.php?ID=".$result['ID']."&validate=1'><button>Accept</button></a>
-                    <a href='../../includes/validate.php?ID=".$result['ID']."&validate=2'><button>Decline</button></a>
+                    <a href='validate.php?ID=".$result['ID']."&validate=1'><button>Accept</button></a>
+                    <a href='validate.php?ID=".$result['ID']."&validate=2'><button>Decline</button></a>
                     </td>";
         }
         echo   "</tr>"; 

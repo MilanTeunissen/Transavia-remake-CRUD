@@ -10,8 +10,6 @@ if (isset($_GET['validate'])) {
     $stmt->bindParam(':ID', $_GET['ID']);
     $stmt->execute();
 
-    header('Location: ../pages/adminpages/admin-home.php');
+    header('Location: admin-home.php');
 
-} else {
-    header('Location: ../menu-wijzigen.php');
 }

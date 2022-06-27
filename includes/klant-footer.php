@@ -13,16 +13,16 @@
                 <h3>Andere pagina's</h3>
                 <ul>
                     <li>
-                        <a href="../../bestemmingen.php">Bestemming</a>
+                        <a href="../bestemmingen.php">Bestemming</a>
                     </li>
                     <li>
-                        <a href="../../overons.php">Over ons</a>
+                        <a href="../overons.php">Over ons</a>
                     </li>
                     <li>
-                        <a href="../../contact.php">Contact</a>
+                        <a href="../contact.php">Contact</a>
                     </li>
                     <li>
-                        <a href="../../review.php">Reviews</a>
+                        <a href="../review.php">Reviews</a>
                     </li>
                 </ul>
             </div>
