@@ -16,10 +16,16 @@
         <div class="review">
             <div class="user-rating">
                 <div class="user-review">
-                    <div class="user-img">
-                        <img src="img/rick-raddatz.png" alt="">
+                    <div class="review-form">
+                        <div class="review-form-1">
+                            <h4>Naam</h4>
+                            <input type="text" placeholder="Naam">
+                        </div>
+                        <div class="review-form-1">
+                            <h4>Locatie</h4>
+                            <input type="text" placeholder="Locaties">
+                        </div>
                     </div>
-                    <p><b>Username</b><br> heeft<b> Locatie</b> beoordeeld</p>
                 </div>
                 <div class="star-rating">
                     <div class="star-rating-stars">
